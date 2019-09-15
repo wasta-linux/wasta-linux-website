@@ -337,7 +337,7 @@ figure.floatleft {
   }
 }
 
-// print styles
+// rik: print styles
 @media print {
 
   body {
@@ -359,7 +359,8 @@ figure.floatleft {
   }
 
   .book-menu,
-  .book-toc {
+  .book-toc,
+  .book-footer {
     display: none;
   }
 
@@ -375,15 +376,15 @@ figure.floatleft {
     page-break-inside: avoid;
   }
 
-   a {
-      font-weight: bolder;
-      text-decoration: none;
-   }
+  a {
+    font-weight: bolder;
+    text-decoration: none;
+  }
 
-   a[href^=http]:after,
-   a[href^=www]:after {
-      content:" <" attr(href) "> ";
-   }
+  a[href^=http]:after,
+  a[href^="/"]:after {
+    content:" <" attr(href) "> ";
+  }
 
 }
 
