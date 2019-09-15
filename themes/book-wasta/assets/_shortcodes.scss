@@ -1,0 +1,120 @@
+@import "variables";
+
+.markdown-inner {
+  // Util class to remove extra margin in nested markdown content
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+// {{< expand "Label" "icon" >}}
+.book-expand {
+  margin-top: $padding-16;
+  margin-bottom: $padding-16;
+
+  background: $menu-background;
+
+  border: $padding-1 solid $gray-300;
+  border-radius: $border-radius;
+
+  overflow: hidden;
+
+  .book-expand-head {
+    padding: $padding-8 $padding-16;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: $font-size-h3;
+  }
+
+  .book-expand-content {
+    display: none;
+    padding: $padding-16;
+  }
+
+  input[type="checkbox"]:checked + .book-expand-content {
+    display: block;
+    padding: $padding-4 $padding-16;
+    font-style: normal;
+    font-size: $font-size-base;
+    font-weight: normal;
+  }
+}
+
+// {{< tabs >}}
+.book-tabs {
+  margin-top: $padding-16;
+  margin-bottom: $padding-16;
+
+  line-height: 1.2;
+
+  border: $padding-1 solid $gray-300;
+  border-radius: $border-radius;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  background: $menu-background;
+
+  label {
+    display: inline-block;
+    padding: $padding-8 $padding-16;
+    border-bottom: $padding-1 transparent;
+    cursor: pointer;
+
+    font-size: $font-size-h3;
+  }
+
+  .book-tabs-content {
+    order: 999; //Move content blocks to the end
+    width: 100%;
+    border-top: $padding-1 solid $body-background;
+    padding: $padding-16;
+    display: none;
+    background: $body-background;
+    li {
+      padding: $padding-4;
+    }
+    font-style: normal;
+    font-size: $font-size-base;
+    font-weight: normal;
+  }
+
+  input[type="radio"]:checked + label {
+    border-top: solid $color-link;
+    background: $body-background;
+  }
+  input[type="radio"]:checked + label + .book-tabs-content {
+    display: block;
+  }
+}
+
+// {{< columns >}}
+.book-columns {
+  margin-left: -$padding-16;
+  margin-right: -$padding-16;
+
+  > div {
+    margin: $padding-16 0;
+    // max-width: 50%;
+    min-width: $body-min-width * 0.66;
+    padding: 0 $padding-16;
+  }
+}
+
+// {{< button >}}
+a.book-btn {
+  display: inline-block;
+  color: $color-link !important;
+  text-decoration: none !important;
+  border: $padding-1 solid $color-link;
+  border-radius: $border-radius;
+  padding: $padding-4 $padding-16;
+  margin-top: $padding-8;
+  margin-bottom: $padding-8;
+  cursor: pointer;
+}

@@ -1,0 +1,69 @@
+// Used in layout
+$padding-1: 1px;
+$padding-4: 0.25rem;
+$padding-8: 0.5rem;
+$padding-16: 1rem;
+
+$font-size-base: 14px;
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-h5: 12px;
+$font-size-h4: 14px;
+$font-size-h3: 16px;
+$font-size-h2: 20px;
+$font-size-h1: 30px;
+
+$code-font-color: green;
+$code-font-size: $font-size-14;
+
+$border-radius: 0.15rem;
+
+// Grayscale
+$white: #ffffff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$arc-blue: #5294e2;
+$arc-dark: #383c4a;
+$arc-dark-light: #404552;
+$arc-dark-light: #666a74;
+$arc-dark-light: #3b4250;
+$arc-dark-light: #404756;
+$arc-light: #f5f6f7;
+
+$color-link: $arc-blue;
+$color-visited-link: $arc-blue;
+$color-dark-link: $arc-dark;
+
+$site-background: $arc-dark-light;
+
+$page-background: $arc-dark;
+$page-font-color: $white;
+
+$body-background: $white;
+$body-font-color: $arc-dark;
+$body-font-weight: normal;
+
+$menu-background: $arc-light;
+$menu-search-background: $white;
+$menu-font-color: $arc-blue;
+$menu-link-color: $arc-blue;
+
+$body-min-width: 20rem;
+$container-max-width: 83rem;
+
+$header-height: 3.5rem;
+$menu-width: 16rem;
+$toc-width: 16rem;
+
+$md-breakpoint: $menu-width + $body-min-width * 1.25 + $toc-width;
+$sm-breakpoint: $menu-width + $body-min-width;

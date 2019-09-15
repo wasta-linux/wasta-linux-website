@@ -1,0 +1,341 @@
+@import "normalize";
+@import "variables";
+@import "utils";
+@import "markdown";
+@import "shortcodes";
+
+html {
+  font-size: $font-size-base;
+  letter-spacing: .2px;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-width: $body-min-width;
+  overflow-x: hidden;
+  padding-left: $padding-16 0;
+}
+
+body {
+  color: $body-font-color;
+  background: $site-background;
+
+  font-family: sans-serif;
+  font-weight: $body-font-weight;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  box-sizing: border-box;
+  * {
+    box-sizing: inherit;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $menu-link-color;
+
+  &:visited {
+    color: $menu-link-color;
+  }
+}
+
+img {
+  vertical-align: baseline;
+}
+
+aside nav ul {
+  background: $menu-background;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: $menu-font-color;
+
+  li {
+    margin: 0;
+    padding: $padding-4 $padding-8;
+  }
+
+  a {
+    display: block;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ul {
+    padding-left: $padding-16;
+  }
+}
+
+ul.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+  .page-item a {
+    padding: $padding-16;
+  }
+}
+
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.book-brand {
+  margin: 0;
+  font-weight: normal;
+}
+
+.book-menu {
+  flex: 0 0 $menu-width;
+  font-size: $font-size-base;
+
+  nav {
+    width: $menu-width;
+    padding: $padding-16;
+    padding-right: 0;
+
+    @include fixed;
+  }
+}
+
+.book-section-flat {
+  margin-bottom: $padding-16 * 2;
+
+  &:not(:first-child) {
+    margin-top: $padding-16 * 2;
+  }
+
+  > a,
+  > span {
+    font-weight: bolder;
+  }
+
+  > ul {
+    padding-left: 0;
+  }
+}
+
+.book-page {
+  min-width: $body-min-width;
+  flex-grow: 1;
+  padding: $padding-16;
+}
+
+.book-header {
+  margin-bottom: $padding-16;
+  display: none;
+  font-weight: normal;
+}
+
+.book-header-show {
+  margin-bottom: $padding-16;
+  font-weight: normal;
+  display: none;
+}
+
+.book-search {
+  position: relative;
+  margin: $padding-16 0;
+  border-bottom: 1px solid transparent;
+
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  input {
+    width: 100%;
+    padding: $padding-8;
+
+    border: 0;
+    border-radius: $padding-4;
+
+    background: $menu-search-background;
+
+    &:required + .book-search-spinner {
+      display: block;
+    }
+  }
+
+  .book-search-spinner {
+    position: absolute;
+    margin: $padding-8;
+    right: 0;
+    top: 0;
+
+    width: $padding-16;
+    height: $padding-16;
+
+    border: $padding-1 solid transparent;
+    border-top-color: $body-font-color;
+    border-radius: 50%;
+
+    @include spin(1s);
+  }
+}
+
+.book-toc {
+  flex: 0 0 $toc-width;
+  font-size: $font-size-h5;
+
+  nav {
+    width: $toc-width;
+    padding: $padding-16;
+    padding-left: 0;
+
+    @include fixed;
+  }
+
+  img {
+    height: 1em;
+  }
+
+  nav > ul > li:first-child {
+    margin-top: 0;
+  }
+
+  // Classes to hide nested levels of ToC (can be replaced by @for, but it's more clear like this)
+//  &.level-1 ul ul,
+//  &.level-2 ul ul ul,
+//  &.level-3 ul ul ul ul,
+//  &.level-4 ul ul ul ul ul,
+//  &.level-5 ul ul ul ul ul ul,
+//  &.level-6 ul ul ul ul ul ul ul {
+//    display: none;
+//  }
+}
+
+.book-footer {
+  padding-top: $padding-16;
+  font-size: $font-size-base;
+
+  img {
+    height: 1em;
+  }
+}
+
+.book-posts {
+  min-width: $body-min-width;
+  max-width: $body-min-width * 2;
+  flex-grow: 1;
+  padding: $padding-16;
+
+  article {
+    padding-bottom: $padding-16;
+  }
+}
+
+.book-home {
+  padding: $padding-16;
+}
+
+// Responsive styles
+aside nav,
+.book-page {
+  background: $page-background;
+  color: $page-font-color;
+}
+
+.book-posts,
+.markdown {
+  transition: 0.2s ease-in-out;
+  transition-property: transform, margin-left, opacity;
+  will-change: transform, margin-left;
+  background: $body-background;
+  color: $body-font-color;
+  padding: $padding-4 $padding-16;
+}
+
+@media screen and (max-width: $md-breakpoint) {
+  .book-toc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $sm-breakpoint) {
+  .book-menu {
+    margin-left: -$menu-width;
+  }
+
+  .book-header {
+    display: none;
+  }
+
+  .book-header-show {
+    display: flex;
+    font-weight: normal;
+  }
+
+  #menu-control:checked + main {
+    .book-menu nav,
+    .book-page,
+    .book-posts {
+      transform: translateX($menu-width);
+    }
+
+    .book-header {
+      display: flex;
+    }
+
+    .book-header-show {
+      display: none;
+    }
+
+    .book-header label {
+      transform: rotate(90deg);
+    }
+
+    .markdown {
+      opacity: 0.25;
+    }
+  }
+}
+
+figure.floatright {
+  max-width: 30%;
+  height: auto;
+  float: right;
+}
+
+figure.floatleft {
+  max-width: 30%;
+  height: auto;
+  float: left;
+}
+
+// Extra space for big screens
+@media screen and (min-width: $container-max-width) {
+  .container {
+    max-width: 86rem;
+  }
+  .book-page {
+    padding: $padding-16 * 2;
+    padding-left: $padding-16 * 3;
+    padding-right: $padding-16 *2;
+  }
+  .book-menu nav {
+    width: 18rem;
+    padding: $padding-16 * 2;
+    padding-right: $padding-16;
+  }
+  .book-toc nav {
+    width: 19rem;
+    padding: $padding-16 * 2;
+    padding-left: 0;
+  }
+}
+
+// Add fonts
+@import "fonts";
+
+// Add custom defined styles
+@import "custom";

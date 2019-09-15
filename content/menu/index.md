@@ -1,0 +1,16 @@
+---
+headless: true
+---
+- [**Wasta-Linux: Home**]({{< relref "/" >}})
+  - [Frequently Asked Questions]({{< relref "/home/faq.md" >}})
+  - [Download]({{< relref "/home/download.md" >}})
+  - [Migrating from Ubuntu]({{< relref "/home/ubuntu-migration.md" >}})
+  - [Customizing]({{< relref "/home/customizing.md" >}})
+- [**Wasta Apps**]({{< relref "/wasta-apps.md" >}})
+  - [Wasta-Backup]({{< relref "/wasta-apps/wasta-backup.md" >}})
+  - [Wasta-Offline]({{< relref "/wasta-apps/wasta-offline.md" >}})
+  - [Wasta-Layout]({{< relref "/wasta-apps/wasta-layout.md" >}})
+  - [Wasta-Menus]({{< relref "/wasta-apps/wasta-menus.md" >}})
+  - [Wasta-Resources]({{< relref "/wasta-apps/wasta-resources.md" >}})
+- [**Tutorials**]({{< relref "/tutorials.md" >}})
+- [**Why Linux?**]({{< relref "/home/why-linux.md" >}})
