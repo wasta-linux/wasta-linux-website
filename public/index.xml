@@ -205,17 +205,7 @@ With Wasta-Menus enabled, a Wasta-Linux computer could serve as a kiosk omputer 
     </item>
     
     <item>
-      <title>Wasta-Resources</title>
-      <link>http://www.wastalinux.org/hugo/wasta-apps/wasta-resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.wastalinux.org/hugo/wasta-apps/wasta-resources/</guid>
-      <description>Wasta-Resources: Centralized Distribution of Reference and Documentation Materials What is it? Basically Wasta-Resources is just a standard place in Wasta-Linux to put any read-only reference materials you want, and it also adds a launcher to open to the location in a file browser, so that this location is easy findable by users from the Main Menu.
-The location is /usr/share/wasta-resources. Any package can place items here (We would recommend a sub-folder for your region).</description>
-    </item>
-    
-    <item>
-      <title>Wasta0</title>
+      <title>Wasta-Remastersys</title>
       <link>http://www.wastalinux.org/hugo/home/customizing/wasta-remastersys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -225,6 +215,16 @@ The Wasta-Linux ISOs are created using Wasta-Remastersys. Wasta-Remastersys is a
 In order to create your own custom ISO, you can follow these steps:
  Install Wasta-Linux It is preferable to do this on a &amp;ldquo;clean test machine&amp;rdquo; designated for this process.
  Customize Wasta-Linux Follow either method listed on the Wasta-Linux customizing page.</description>
+    </item>
+    
+    <item>
+      <title>Wasta-Resources</title>
+      <link>http://www.wastalinux.org/hugo/wasta-apps/wasta-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/wasta-apps/wasta-resources/</guid>
+      <description>Wasta-Resources: Centralized Distribution of Reference and Documentation Materials What is it? Basically Wasta-Resources is just a standard place in Wasta-Linux to put any read-only reference materials you want, and it also adds a launcher to open to the location in a file browser, so that this location is easy findable by users from the Main Menu.
+The location is /usr/share/wasta-resources. Any package can place items here (We would recommend a sub-folder for your region).</description>
     </item>
     
     <item>
