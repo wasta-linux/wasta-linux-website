@@ -86,6 +86,9 @@ ul.pagination {
   max-width: $container-max-width;
   margin: 0 auto;
   min-height: 100vh;
+
+  // 2019-09-15: below gets printing more than 1 page but crops sides
+  // display: inline;
 }
 
 .book-brand {
@@ -332,6 +335,56 @@ figure.floatleft {
     padding: $padding-16 * 2;
     padding-left: 0;
   }
+}
+
+// print styles
+@media print {
+
+  body {
+    color: #000;
+    background: none;
+  }
+
+  .container {
+    display: inline;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+
+  .markdown {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+
+  .book-menu,
+  .book-toc {
+    display: none;
+  }
+
+   @page {
+      margin: 2cm 1cm;
+   }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  ul, img {
+    page-break-inside: avoid;
+  }
+
+   a {
+      font-weight: bolder;
+      text-decoration: none;
+   }
+
+   a[href^=http]:after,
+   a[href^=www]:after {
+      content:" <" attr(href) "> ";
+   }
+
 }
 
 // Add fonts
