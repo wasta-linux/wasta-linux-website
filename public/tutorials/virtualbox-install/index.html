@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About | wasta [Linux]</title>
+<title>Virtualbox Installation | wasta [Linux]</title>
 
 
-<link rel="stylesheet" href="/hugo/book.min.5129c2b0664e8bac0c8c0957ad5a7768f655a40cb1e9b097f8e3ffae85c91889.css">
+<link rel="stylesheet" href="/hugo/book.min.6ea01c948ed36d608fb1d32e032fcf0a6dfc61b909e97f4b070c21ae5fb32137.css">
 
 
-<script defer src="/hugo/search.min.f33dede38ea3aa7dd77be1521189768ee8ee8dd73278c2b80076b136fa58408d.js"></script>
+<script defer src="/hugo/search.min.ebbe97de325de0e7ac0c9c635074d8047065665420085f96e8ff3ef77462ee5f.js"></script>
 
 
 
@@ -19,7 +19,7 @@
 
 <!--
 Made with Book Wasta Theme
-https://github.com/wasta-linux/hugo-book-wasta
+https://github.com/wasta-linux/book-wasta
 -->
 
   
@@ -119,7 +119,27 @@ https://github.com/wasta-linux/hugo-book-wasta
       
 <article class="markdown">
 
-<h1 id="wasta-linux-about">Wasta-Linux: About</h1>
+<p><p align="center"> <img src="../../img/wasta-linux-round-128.png" alt="Wasta-Linux" /></p>
+
+<h1 id="wasta-linux-virutalbox-installation">Wasta-Linux VirutalBox Installation</h1>
+
+<p>In general, <a href="/hugo/">Wasta-Linux</a> runs fine in VirtualBox <em>after the VirtualBox Guest Additions have been installed on the Wasta-Linux guest virtual machine and settings are made correctly.</em> Before the VirtualBox Guest Additions are installed, it will not be possible to enable &ldquo;3D Graphics&rdquo;, which Cinnamon requires, and you will get a warning message when logging in that you are in &ldquo;Software Rendering Mode&rdquo;. There are a few quirks to getting these &ldquo;Guest Additions&rdquo; installed that are documented here.</p>
+
+<p>VirtualBox setup notes:</p>
+
+<ul>
+<li><p>Choose &ldquo;Ubuntu&rdquo; as the Linux version when installing Wasta-Linux in VirtualBox.</p></li>
+
+<li><p>Ensure that 3D Graphics are enabled in the VirtualBox settings (see screenshot below):</p></li>
+</ul>
+
+<p><p align="center"> <img src="../../img/tutorials/virtualbox-install/vb-3d-settings.png" alt="VirtualBox 3D Settings" /></p>
+
+<p>After ensuring that 3D Graphics are being used (see above) in the settings, start Wasta-Linux in VirtualBox and then after logging in, from the menu choose <code>Devices &gt; Insert Guest Additions CD image...</code> and follow the prompts to complete the Guest Additions installation.</p>
+
+<p>You will be asked for an administrative password <em>(the password you created for the user at install time has administrative permissions, so use this password).</em> A terminal window will launch, and may ask if you want to replace the older version of Guest Additions, what do you want to do?</p>
+
+<p>Type <code>yes</code> at this prompt and then click <code>Enter</code> to continue and the Virtualbox Guest Additions should install successfully. You will need to shutdown and restart for 3D graphics to be enabled. Then when logging into Cinnamon, you should NOT get the &ldquo;Software Rendering&rdquo; message.</p>
 </article>
 
       

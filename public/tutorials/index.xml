@@ -20,28 +20,10 @@
     
     <item>
       <title>About</title>
-      <link>http://www.wastalinux.org/hugo/tutorials/language-worker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.wastalinux.org/hugo/tutorials/language-worker/</guid>
-      <description> Wasta-Linux: About </description>
-    </item>
-    
-    <item>
-      <title>About</title>
       <link>http://www.wastalinux.org/hugo/tutorials/technician/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.wastalinux.org/hugo/tutorials/technician/</guid>
-      <description> Wasta-Linux: About </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</guid>
       <description> Wasta-Linux: About </description>
     </item>
     
@@ -77,6 +59,15 @@ Here is an introduction to Kiwix from their website:
     </item>
     
     <item>
+      <title>Language Worker Guide</title>
+      <link>http://www.wastalinux.org/hugo/tutorials/language-worker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/tutorials/language-worker/</guid>
+      <description>Wasta-Linux Language Worker Guide What is Wasta-Linux? Who can use it? Nearly anyone can use Wasta-Linux instead of Windows on a computer. If you are used to using a Windows computer you will notice that some things look different (click here to see major differences), but most things behave in similar ways. Wasta-Linux is especially designed for language work: developing and producing materials in minority languages. Materials you want to produce may include:</description>
+    </item>
+    
+    <item>
       <title>Portable USB Installation</title>
       <link>http://www.wastalinux.org/hugo/tutorials/usb-install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -95,6 +86,15 @@ Here is an introduction to Kiwix from their website:
       <description>Guidelines for Creating Wasta-Linux Tutorials Screenshots Shutter is the application recommended for creating screenshots to use in Wasta-Linux Tutorials. As with most screenshot utilities, you have the ability to screenshot your entire desktop, a specific application window, or a selected area of your desktop.
  Shutter Main Window Hilighted above are the basic options for taking screenshots using the Shutter Main Window:
  1. Selection: take screenshot of selected area of your desktop</description>
+    </item>
+    
+    <item>
+      <title>Virtualbox Installation</title>
+      <link>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</guid>
+      <description>Wasta-Linux VirutalBox Installation In general, Wasta-Linux runs fine in VirtualBox after the VirtualBox Guest Additions have been installed on the Wasta-Linux guest virtual machine and settings are made correctly. Before the VirtualBox Guest Additions are installed, it will not be possible to enable &amp;ldquo;3D Graphics&amp;rdquo;, which Cinnamon requires, and you will get a warning message when logging in that you are in &amp;ldquo;Software Rendering Mode&amp;rdquo;. There are a few quirks to getting these &amp;ldquo;Guest Additions&amp;rdquo; installed that are documented here.</description>
     </item>
     
   </channel>

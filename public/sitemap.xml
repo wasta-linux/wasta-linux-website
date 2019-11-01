@@ -9,24 +9,17 @@
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/advisor/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.wastalinux.org/hugo/tutorials/language-worker/</loc>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/technician/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/create-bootable-usb/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
@@ -36,12 +29,12 @@
   
   <url>
     <loc>http://www.wastalinux.org/hugo/home/download/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/home/faq/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
@@ -51,22 +44,27 @@
   
   <url>
     <loc>http://www.wastalinux.org/hugo/home/</loc>
-    <lastmod>2019-09-15T21:29:36+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/inplace-upgrade/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/kiwix/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.wastalinux.org/hugo/tutorials/language-worker/</loc>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/home/customizing/launchpad-setup/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
@@ -76,21 +74,22 @@
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/usb-install/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/tutorial-guidelines/</loc>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
@@ -99,18 +98,23 @@
   </url>
   
   <url>
+    <loc>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</loc>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.wastalinux.org/hugo/wasta-apps/</loc>
     <lastmod>2019-09-15T17:23:15+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/wasta-apps/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/wasta-apps/wasta-backup/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
@@ -120,7 +124,7 @@
   
   <url>
     <loc>http://www.wastalinux.org/hugo/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
@@ -135,7 +139,7 @@
   
   <url>
     <loc>http://www.wastalinux.org/hugo/home/customizing/wasta-remastersys/</loc>
-    <lastmod>2019-09-15T21:29:36+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
   <url>
@@ -145,7 +149,7 @@
   
   <url>
     <loc>http://www.wastalinux.org/hugo/home/why-linux/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <lastmod>2019-11-01T16:07:09+03:00</lastmod>
   </url>
   
 </urlset>

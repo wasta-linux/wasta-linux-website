@@ -34,8 +34,9 @@ There are 2 primary Wasta-Linux customizing methods, both of which can be used t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.wastalinux.org/hugo/home/download/</guid>
-      <description>Wasta-Linux: Downloads 18.04  Wasta-Linux-18.04.3-64Bit  updated: 2019-08-30 md5: f13a4cf5d18e8f40a5cfd0722dc1d814  Notes:
- Based on Ubuntu 18.04 &amp;ldquo;Bionic&amp;rdquo; Interface: Cinnamon is the default interface, with Gnome-Shell also installed Long-Term Support: Security updates provided by Ubuntu through April 2023 UEFI Compatible: Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers Linux Kernel: 5.0 (due to Ubuntu&amp;rsquo;s &amp;ldquo;Hardware Enablement Stack&amp;rdquo;&amp;hellip; the original 18.04 release included Linux Kernel 4.</description>
+      <description>Wasta-Linux: Downloads If you are unsure of which download may be best for your hardware, please use the links at the bottom of this page to post to the Wasta-Linux Users list to ask for clarification.
+18.04  Wasta-Linux-18.04.3-64Bit  updated: 2019-08-30 md5: f13a4cf5d18e8f40a5cfd0722dc1d814  Notes:
+ Based on Ubuntu 18.04 &amp;ldquo;Bionic&amp;rdquo; Interface: Cinnamon is the default interface, with Gnome-Shell also installed Long-Term Support: Security updates provided by Ubuntu through April 2023 UEFI Compatible: Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers Linux Kernel: 5.</description>
     </item>
     
     <item>
@@ -109,7 +110,8 @@ In order to create your own custom ISO, you can follow these steps:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.wastalinux.org/hugo/home/why-linux/</guid>
-      <description>#Hello World</description>
+      <description>Why Linux: a case study from our Organization* in NE Africa by Rik Shaw
+In 2012, our Organization, which supports translation and literacy projects in NE Africa, began migrating our computer operating systems from Windows to Linux. As of March 2014, all machines in this NE Africa location were migrated to Linux. As of 2019, several other of our Organization&amp;rsquo;s locations in Africa, North America, and Asia, have begun to embrace Linux, accounting for several hundred additional installations worldwide.</description>
     </item>
     
   </channel>

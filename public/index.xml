@@ -29,28 +29,10 @@
     
     <item>
       <title>About</title>
-      <link>http://www.wastalinux.org/hugo/tutorials/language-worker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.wastalinux.org/hugo/tutorials/language-worker/</guid>
-      <description> Wasta-Linux: About </description>
-    </item>
-    
-    <item>
-      <title>About</title>
       <link>http://www.wastalinux.org/hugo/tutorials/technician/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.wastalinux.org/hugo/tutorials/technician/</guid>
-      <description> Wasta-Linux: About </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</guid>
       <description> Wasta-Linux: About </description>
     </item>
     
@@ -80,8 +62,9 @@ There are 2 primary Wasta-Linux customizing methods, both of which can be used t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.wastalinux.org/hugo/home/download/</guid>
-      <description>Wasta-Linux: Downloads 18.04  Wasta-Linux-18.04.3-64Bit  updated: 2019-08-30 md5: f13a4cf5d18e8f40a5cfd0722dc1d814  Notes:
- Based on Ubuntu 18.04 &amp;ldquo;Bionic&amp;rdquo; Interface: Cinnamon is the default interface, with Gnome-Shell also installed Long-Term Support: Security updates provided by Ubuntu through April 2023 UEFI Compatible: Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers Linux Kernel: 5.0 (due to Ubuntu&amp;rsquo;s &amp;ldquo;Hardware Enablement Stack&amp;rdquo;&amp;hellip; the original 18.04 release included Linux Kernel 4.</description>
+      <description>Wasta-Linux: Downloads If you are unsure of which download may be best for your hardware, please use the links at the bottom of this page to post to the Wasta-Linux Users list to ask for clarification.
+18.04  Wasta-Linux-18.04.3-64Bit  updated: 2019-08-30 md5: f13a4cf5d18e8f40a5cfd0722dc1d814  Notes:
+ Based on Ubuntu 18.04 &amp;ldquo;Bionic&amp;rdquo; Interface: Cinnamon is the default interface, with Gnome-Shell also installed Long-Term Support: Security updates provided by Ubuntu through April 2023 UEFI Compatible: Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers Linux Kernel: 5.</description>
     </item>
     
     <item>
@@ -126,6 +109,15 @@ Follow the below steps in order establish your GitHub ID and register a SSH key 
       <description>Kiwix: Wikipedia Offline Kiwix is a software utility created to use Wikipedia and other large web-based content resources when internet is not available.
 Here is an introduction to Kiwix from their website:
  The world has a connectivity issue In many places internet can be slow, unreliable or even censored. Kiwix is an offline solution that allows you to access educational content like Wikipedia, the Wiktionary, TED talks and many others on any computer or smartphone - without the need for a live internet connection.</description>
+    </item>
+    
+    <item>
+      <title>Language Worker Guide</title>
+      <link>http://www.wastalinux.org/hugo/tutorials/language-worker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/tutorials/language-worker/</guid>
+      <description>Wasta-Linux Language Worker Guide What is Wasta-Linux? Who can use it? Nearly anyone can use Wasta-Linux instead of Windows on a computer. If you are used to using a Windows computer you will notice that some things look different (click here to see major differences), but most things behave in similar ways. Wasta-Linux is especially designed for language work: developing and producing materials in minority languages. Materials you want to produce may include:</description>
     </item>
     
     <item>
@@ -174,7 +166,7 @@ Git is used for version control of all the Wasta-Linux custom packages. There is
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.wastalinux.org/hugo/tutorials/</guid>
-      <description>Wasta-Linux Tutorials Installation / Upgrade  Creating a bootable Wasta-Linux USB drive In-Place Upgrades: Re-installing / Upgrading Wasta-Linux for users without a separate /home partition Installing Wasta-Linux to an encrypted USB drive  Miscellaneous  Download and install Kiwix and the simple English version of Wikipedia for offline use Guide for Creating Screenshots to use with Wasta-Linux Tutorials  Additional Tutorials Several locations are beginning to create Wasta-Linux tutorials that are beneficial to all Wasta-Linux users.</description>
+      <description>Wasta-Linux Tutorials Installation / Upgrade  Creating a bootable Wasta-Linux USB drive In-Place Upgrades: Re-installing / Upgrading Wasta-Linux for users without a separate /home partition Installing Wasta-Linux to an encrypted USB drive Installing Wasta-Linux using VirtualBox  Miscellaneous  Download and install Kiwix and the simple English version of Wikipedia for offline use Guide for Creating Screenshots to use with Wasta-Linux Tutorials  Additional Tutorials Several locations are beginning to create Wasta-Linux tutorials that are beneficial to all Wasta-Linux users.</description>
     </item>
     
     <item>
@@ -185,6 +177,15 @@ Git is used for version control of all the Wasta-Linux custom packages. There is
       <guid>http://www.wastalinux.org/hugo/home/ubuntu-migration/</guid>
       <description>How to turn Ubuntu into Wasta-Linux To take an existing Ubuntu 18.04 system and change it into Wasta-Linux 18.04, from a Terminal * perform the following steps:
  NOTE: Wasta-Linux only targets Ubuntu LTS (Long Term Support) releases, such as 18.04, 16.04, etc. Interim short-term Ubuntu releases such as 19.10, 19.04, etc. are not supported.   Get the Wasta-Linux core package installed: The following Terminal * commands (perform them one at a time) are needed to install the all-essential wasta-core-bionic package, which is the foundation for Wasta-Linux:</description>
+    </item>
+    
+    <item>
+      <title>Virtualbox Installation</title>
+      <link>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</guid>
+      <description>Wasta-Linux VirutalBox Installation In general, Wasta-Linux runs fine in VirtualBox after the VirtualBox Guest Additions have been installed on the Wasta-Linux guest virtual machine and settings are made correctly. Before the VirtualBox Guest Additions are installed, it will not be possible to enable &amp;ldquo;3D Graphics&amp;rdquo;, which Cinnamon requires, and you will get a warning message when logging in that you are in &amp;ldquo;Software Rendering Mode&amp;rdquo;. There are a few quirks to getting these &amp;ldquo;Guest Additions&amp;rdquo; installed that are documented here.</description>
     </item>
     
     <item>
@@ -275,7 +276,8 @@ The location is /usr/share/wasta-resources. Any package can place items here (We
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.wastalinux.org/hugo/home/why-linux/</guid>
-      <description>#Hello World</description>
+      <description>Why Linux: a case study from our Organization* in NE Africa by Rik Shaw
+In 2012, our Organization, which supports translation and literacy projects in NE Africa, began migrating our computer operating systems from Windows to Linux. As of March 2014, all machines in this NE Africa location were migrated to Linux. As of 2019, several other of our Organization&amp;rsquo;s locations in Africa, North America, and Asia, have begun to embrace Linux, accounting for several hundred additional installations worldwide.</description>
     </item>
     
   </channel>
