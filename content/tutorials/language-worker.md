@@ -80,13 +80,13 @@ That's it! You have copied all your important data files, whether they be Parate
 
 To close the Wasta-Backup dialog, click the upper right hand corner "x" in the box, in the same manner as any other program you will encounter under Wasta-Linux.
 
-Note that Paratext users have other methods of backing up their data, including on-line repositories if they have a Digicel or wireless modem to the telecom network. But mobile towers can go down for weeks, and smart-phones uses a modems can be stolen. It's always a good idea with language data to have other methods of backing up. Please backup regularly to a mem stick, at least once a day. Also, this is really the only way to preserve or backup a letter that you may have written with Libre Office Writer.
+Note that Paratext users have other methods of backing up their data, including on-line repositories if they have a Digicel or wireless modem to the telecom network. But mobile towers can go down for weeks, and smart-phones uses a modems can be stolen. It's always a good idea with language data to have other methods of backing up. Please backup regularly to a USB stick, at least once a day. Also, this is really the only way to preserve or backup a letter that you may have written with Libre Office Writer.
 
 ### Restore Lost Data Files
 
 Normally there is no reason to restore lost data, but strange things do happen to computers from time to time.
 
-Restoration of language data is a rather advanced topic for the Language Worker and is normally a task reserved for your "Language Consultant" or advisor that is helping you with your language programme. It is mentioned here for completeness, but if you have recognized that somehow, presently, the language data files are in error or corrupted, then it would be a good idea for you to be personally trained. To find and restore the data back from the days when the data was correct can be complicated and basically one needs to search back in time to the place before the error or corruption occurred.
+Restoration of language data is a rather advanced topic for the Language Worker and is normally a task reserved for your "Language Consultant" or advisor that is helping you with your language program. It is mentioned here for completeness, but if you have recognized that somehow, presently, the language data files are in error or corrupted, then it would be a good idea for you to be personally trained. To find and restore the data back from the days when the data was correct can be complicated and basically one needs to search back in time to the place before the error or corruption occurred.
 
 Wasta-Backup does "remember" your data and keeps a running history as you progress in your work. So, if a bad day occurred way back three weeks ago, and **IF** you have been doing daily backups onto a memory stick
 (as you have been told to do), then it can be very easy to go back in time and restore the lost data to its former glory.
@@ -99,7 +99,7 @@ Wasta-Backup does "remember" your data and keeps a running history as you progre
 
 One of the most powerful new features of Wasta-Linux is the ability to do a simple upgrade of ALL you software applications, plus Wasta-Linux itself, and without disturbing your language data, and WITHOUT the necessity of a good Internet connect. In fact, we can do this without the Internet entirely. 
 
-The system for this is called [Wasta-Offline]({{< relref "/wasta-apps/wasta-offline.md" >}}) and the software to help you is already present to run in your version of Wasta-Linux. What you will need however is for your Advisor to send you an "update" USB memory stick or maybe a flash SD card with all the software updates present and ready to go. This mem stick might come to you by messenger, or by an airplane drop off, or by some other means, even the Postal system if you live in town.
+The system for this is called [Wasta-Offline]({{< relref "/wasta-apps/wasta-offline.md" >}}) and the software to help you is already present to run in your version of Wasta-Linux. What you will need however is for your Advisor to send you an "update" USB memory stick or maybe a flash SD card with all the software updates present and ready to go. This USB stick might come to you by messenger, or by an airplane drop off, or by some other means, even the Postal system if you live in town.
 
 ---
 

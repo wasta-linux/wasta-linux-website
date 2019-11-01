@@ -10,7 +10,7 @@ bookToc: false
 
 <p align="center"> *by Rik Shaw*
 
-<p align="center"> ![New Langauge Worker Training](../../img/home/why-linux/NewLanguageWorkerTraining.jpg)
+<p align="center"> ![New Language Worker Training](../../img/home/why-linux/NewLanguageWorkerTraining.jpg)
 
 In 2012, our Organization, which supports translation and literacy projects in NE Africa, began migrating our computer operating systems from Windows to Linux. As of March 2014, all machines in this NE Africa location were migrated to Linux. As of 2019, several other of our Organization's locations in Africa, North America, and Asia, have begun to embrace Linux, accounting for several hundred additional installations worldwide.
 
@@ -64,7 +64,7 @@ The most obvious reason Linux doesn't have the virus and malware problems of Win
 
 - **Linux was designed "from the ground up" as a networked operating system.** Rather than needing to "patch in security features after the fact" like "Windows User Access Control" that showed up with Windows Vista and later, Linux has been designed *from the beginning* as a multi-user networked system with "smart authorization" required for system modifications.
 
-- **Since Linux is open source, it means the code is available for anyone to review.** The common saying is "More eyes make fewer security flaws". It may take a motivated individual to do this, but these same motivated individuals can also apply patches should they find a possible vulnerability. There doesn't have to be a "waiting and hoping that the corporation will fix its security flaw". Proprietary software, by being closed, is inherently unknown and un-reviewed by the outside world as to the potential loopholes that could be maliciously exploited.
+- **Since Linux is open source, it means the code is available for anyone to review.** The common saying is "More eyes make fewer security flaws". It may take a motivated individual to do this, but these same motivated individuals can also apply patches should they find a possible vulnerability. There doesn't have to be a "waiting and hoping that the corporation will fix its security flaw". Proprietary software, by being closed, is inherently unknown and unreviewed by the outside world as to the potential loopholes that could be maliciously exploited.
 
 - **Since Linux is by far the predominant server platform in the world,** especially on the Internet, security issues are a huge corporate concern, and therefore there is a lot of money flowing into Linux to ensure that known security flaws are quickly fixed.
 
@@ -166,7 +166,7 @@ Regardless of the practical problem of piracy, I strongly feel there are ethical
 
 <--->
 
-Many expats may not think of these issues since they purchase machines with genuine MS Windows already installed. I want to be clear that I am not suggesting that all Organization ex-pat consultants and advisors that have years of experience and expertise in MS Windows be *required* to switch to Linux. I foresee those of us coming from "the privileged land of laptops coming with valid MS Windows" (and those of us who are able to properly maintain anti-virus definitions and avoid the pitfalls of "bloatware", "malware", etc.) be able to evaluate for ourselves what OS and Office program to use. But for our national colleagues in the developing world (and the increasing number of nationals outside our direct work: church partners, literacy program partners, etc.), often the choices are different. Often there isn't really a reasonable, cost-effective, viable choice for them to use Windows and MS Office
+Many expats may not think of these issues since they purchase machines with genuine MS Windows already installed. I want to be clear that I am not suggesting that all Organization ex-pat consultants and advisers that have years of experience and expertise in MS Windows be *required* to switch to Linux. I foresee those of us coming from "the privileged land of laptops coming with valid MS Windows" (and those of us who are able to properly maintain anti-virus definitions and avoid the pitfalls of "bloatware", "malware", etc.) be able to evaluate for ourselves what OS and Office program to use. But for our national colleagues in the developing world (and the increasing number of nationals outside our direct work: church partners, literacy program partners, etc.), often the choices are different. Often there isn't really a reasonable, cost-effective, viable choice for them to use Windows and MS Office
 (legally: and, again, the problem is not only one of "legality", but one of "quality": the hacked pirated versions have driver problems, potentially embedded viruses, etc. that make it a real headache to deal with even apart from morals).
 
 {{< /columns >}}
