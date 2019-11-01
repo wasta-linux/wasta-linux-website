@@ -226,6 +226,10 @@ ul.pagination {
   }
 }
 
+.wasta-footer {
+  display: flow;
+}
+
 .book-posts {
   min-width: $body-min-width;
   max-width: $body-min-width * 2;
@@ -391,6 +395,11 @@ figure.floatleft {
     display: flow;
     }
   }
+
+  // Show footer so even from printout users can find forums
+  //.wasta-footer {
+  //  display: none;
+  //}
 
 }
 
