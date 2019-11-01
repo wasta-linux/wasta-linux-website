@@ -11,37 +11,28 @@
     
     <item>
       <title>About</title>
-      <link>http://www.wastalinux.org/hugo/tutorials/create-bootable-usb/</link>
+      <link>http://www.wastalinux.org/hugo/tutorials/advisor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/tutorials/create-bootable-usb/</guid>
+      <guid>http://www.wastalinux.org/hugo/tutorials/advisor/</guid>
       <description> Wasta-Linux: About </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://www.wastalinux.org/hugo/tutorials/inplace-upgrade/</link>
+      <link>http://www.wastalinux.org/hugo/tutorials/language-worker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/tutorials/inplace-upgrade/</guid>
+      <guid>http://www.wastalinux.org/hugo/tutorials/language-worker/</guid>
       <description> Wasta-Linux: About </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://www.wastalinux.org/hugo/tutorials/kiwix/</link>
+      <link>http://www.wastalinux.org/hugo/tutorials/technician/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/tutorials/kiwix/</guid>
-      <description> Wasta-Linux: About </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://www.wastalinux.org/hugo/tutorials/usb-install/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.wastalinux.org/hugo/tutorials/usb-install/</guid>
+      <guid>http://www.wastalinux.org/hugo/tutorials/technician/</guid>
       <description> Wasta-Linux: About </description>
     </item>
     
@@ -52,6 +43,58 @@
       
       <guid>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</guid>
       <description> Wasta-Linux: About </description>
+    </item>
+    
+    <item>
+      <title>Create Bootable USB</title>
+      <link>http://www.wastalinux.org/hugo/tutorials/create-bootable-usb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/tutorials/create-bootable-usb/</guid>
+      <description>How to create a bootable USB from an ISO Image Using Windows For Windows users, the preferred tool to create a bootable USB device from an ISO Image is Rufus. Rufus has the advantage of not needing to be &amp;ldquo;installed&amp;rdquo;: a user can run it directly from the downloaded &amp;ldquo;.exe file&amp;rdquo;.
+To use Rufus, first insert a 4GB (or greater) USB drive (WARNING! using the Rufus default settings, this USB drive WILL BE COMPLETELY REFORMATTED, so all data WILL BE LOST!</description>
+    </item>
+    
+    <item>
+      <title>Inplace Upgrade</title>
+      <link>http://www.wastalinux.org/hugo/tutorials/inplace-upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/tutorials/inplace-upgrade/</guid>
+      <description>Inplace Upgrades: Migrating between major versions of Wasta-Linux This guide is for migrating between major versions of Wasta-Linux (eg. from 16.04 to 18.04) when the machine does not have a separate home partition. Even without a separate home partition, this type of upgrade will not remove a user&amp;rsquo;s home directory and all files and settings from this &amp;lsquo;home&amp;rsquo; will be migrated to the new system.
+ Backup Make sure important personal files are backed up in case something goes awry.</description>
+    </item>
+    
+    <item>
+      <title>Kiwix - Wikipedia Offline</title>
+      <link>http://www.wastalinux.org/hugo/tutorials/kiwix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/tutorials/kiwix/</guid>
+      <description>Kiwix: Wikipedia Offline Kiwix is a software utility created to use Wikipedia and other large web-based content resources when internet is not available.
+Here is an introduction to Kiwix from their website:
+ The world has a connectivity issue In many places internet can be slow, unreliable or even censored. Kiwix is an offline solution that allows you to access educational content like Wikipedia, the Wiktionary, TED talks and many others on any computer or smartphone - without the need for a live internet connection.</description>
+    </item>
+    
+    <item>
+      <title>Portable USB Installation</title>
+      <link>http://www.wastalinux.org/hugo/tutorials/usb-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/tutorials/usb-install/</guid>
+      <description>Wasta-Linux: Installing to an Encrypted USB Drive It may be desirable to install Wasta-Linux to an encrypted USB drive for security or portability. Following this guide you will need 2 USB drives, one with a standard Wasta-Linux &amp;ldquo;live installer&amp;rdquo; ISO and a second USB drive (preferably a 32+ GB high quality USB3 drive) that will be your target encrypted USB Wasta-Linux system.
+ Machine Setup In order to ensure the USB drive will be UEFI/Secure Boot compatible, make sure the machine is in &amp;ldquo;Secure Boot / UEFI mode.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Guidelines</title>
+      <link>http://www.wastalinux.org/hugo/tutorials/tutorial-guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.wastalinux.org/hugo/tutorials/tutorial-guidelines/</guid>
+      <description>Guidelines for Creating Wasta-Linux Tutorials Screenshots Shutter is the application recommended for creating screenshots to use in Wasta-Linux Tutorials. As with most screenshot utilities, you have the ability to screenshot your entire desktop, a specific application window, or a selected area of your desktop.
+ Shutter Main Window Hilighted above are the basic options for taking screenshots using the Shutter Main Window:
+ 1. Selection: take screenshot of selected area of your desktop</description>
     </item>
     
   </channel>

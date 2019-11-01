@@ -8,27 +8,24 @@
   </url>
   
   <url>
-    <loc>http://www.wastalinux.org/hugo/tutorials/create-bootable-usb/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <loc>http://www.wastalinux.org/hugo/tutorials/advisor/</loc>
   </url>
   
   <url>
-    <loc>http://www.wastalinux.org/hugo/tutorials/inplace-upgrade/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <loc>http://www.wastalinux.org/hugo/tutorials/language-worker/</loc>
   </url>
   
   <url>
-    <loc>http://www.wastalinux.org/hugo/tutorials/kiwix/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.wastalinux.org/hugo/tutorials/usb-install/</loc>
-    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+    <loc>http://www.wastalinux.org/hugo/tutorials/technician/</loc>
   </url>
   
   <url>
     <loc>http://www.wastalinux.org/hugo/tutorials/virtualbox-install/</loc>
+    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.wastalinux.org/hugo/tutorials/create-bootable-usb/</loc>
     <lastmod>2019-09-15T17:23:15+03:00</lastmod>
   </url>
   
@@ -58,6 +55,16 @@
   </url>
   
   <url>
+    <loc>http://www.wastalinux.org/hugo/tutorials/inplace-upgrade/</loc>
+    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.wastalinux.org/hugo/tutorials/kiwix/</loc>
+    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.wastalinux.org/hugo/home/customizing/launchpad-setup/</loc>
     <lastmod>2019-09-15T17:23:15+03:00</lastmod>
   </url>
@@ -65,6 +72,15 @@
   <url>
     <loc>http://www.wastalinux.org/hugo/home/customizing/maintain-package/</loc>
     <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.wastalinux.org/hugo/tutorials/usb-install/</loc>
+    <lastmod>2019-09-15T17:23:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.wastalinux.org/hugo/tutorials/tutorial-guidelines/</loc>
   </url>
   
   <url>

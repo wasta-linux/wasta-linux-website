@@ -7,9 +7,12 @@ bookToc: false
 <p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
 # Wasta-Linux: Downloads
 
+*If you are unsure of which download may be best for your hardware, please use the links at the bottom of this page to post to the Wasta-Linux Users list to ask for clarification.*
+
 ### {{< tabs "downloads" >}}
 
 {{< tab "18.04" >}}
+
 ### [**Wasta-Linux-18.04.3-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-3/WL-18.04.3-64bit.iso)
 * ***updated:*** 2019-08-30
 * ***md5:*** f13a4cf5d18e8f40a5cfd0722dc1d814
@@ -22,6 +25,7 @@ bookToc: false
 * **UEFI Compatible:** Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers
 * **Linux Kernel:** 5.0 (due to Ubuntu's "Hardware Enablement Stack"... the original 18.04 release included Linux Kernel 4.15)
 * **Paratext:** Paratext 8.0 / 9 Beta supported (Paratext 7.5 ***not*** available)
+* **AMD Users:** *Use the below 18.04.1 ISO for Lenovo 14W and possibly other computers with a recent AMD Graphics processors*
 
 {{< expand "Wasta-Linux 18.04.1 Hardware Compatibility Download" >}}
 Wasta-Linux 18.04.1 may be needed if you experience any hardware compatibility issues with the 5.0 Linux Kernel included in Wasta-Linux 18.04.3.

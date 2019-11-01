@@ -4,9 +4,8 @@ type: docs
 bookToc: false
 ---
 <p align="center"> ![Wasta-Linux](img/wasta-linux-round-128.png)
-# Wasta-Linux: Functional, Familar, and Free!
-# Wasta-Linux: Welcome to your new OS!
-# Wasta-Linux: Get your Linux on!
+
+# Wasta-Linux: Welcome to Computing Freedom!
 
 Wasta-Linux is a computer operating system perfect for anyone wanting a **virus-resistant** system that is not only **free to share with anyone** but also provides **freedom** of flexibility and customization.
 

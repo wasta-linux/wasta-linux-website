@@ -22,7 +22,7 @@ Basically it is about freedom (not just "free as in no cost"), which means freed
 
 ---
 
-For the rest of the questions, click on them to see the response:
+Click on a question below to see the response:
 
 {{< expand "Which Linux desktop and distribution is Wasta-Linux based on?" >}}
 With Ubuntu being recognized as the market leader in the Linux ecosystem, it was determined that using Ubuntu as a base for Wasta-Linux is the best choice. Using Ubuntu as a base ensures the broadest compatibility with Linux applications for Wasta-Linux.

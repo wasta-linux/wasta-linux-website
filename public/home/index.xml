@@ -62,13 +62,12 @@ Follow the below steps in order establish your GitHub ID and register a SSH key 
     </item>
     
     <item>
-      <title>Maintain a Custom Package</title>
+      <title>Launchpad Setup</title>
       <link>http://www.wastalinux.org/hugo/home/customizing/launchpad-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.wastalinux.org/hugo/home/customizing/launchpad-setup/</guid>
-      <description>Wasta-Linux: Maintain a Custom Package This page is part of the Wasta-Linux customizing process.
-Git is used for version control of all the Wasta-Linux custom packages. There is a Wasta-Linux organization on GitHub that contains separate GitHub repositories for each Wasta-Linux custom package. Any changes that are pushed up to these repositories are automatically copied every 6 hours to Launchpad, which is Ubuntu&amp;rsquo;s site for managing software. Once the code is in Launchpad, there is another automatic process that builds the actual software packages and places them in the Wasta-Linux Testing Launchpad PPA.</description>
+      <description> Launchpad Setup </description>
     </item>
     
     <item>

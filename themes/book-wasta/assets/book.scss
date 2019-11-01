@@ -386,6 +386,12 @@ figure.floatleft {
     content:" <" attr(href) "> ";
   }
 
+  .book-expand {
+    .book-expand-content {
+    display: flow;
+    }
+  }
+
 }
 
 // Add fonts
