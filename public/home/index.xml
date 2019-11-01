@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on wasta [Linux]</title>
-    <link>http://www.wastalinux.org/hugo/home/</link>
+    <link>http://www.wastalinux.org/home/</link>
     <description>Recent content in Homes on wasta [Linux]</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="http://www.wastalinux.org/hugo/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.wastalinux.org/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://www.wastalinux.org/hugo/home/about-save/</link>
+      <link>http://www.wastalinux.org/home/about-save/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/about-save/</guid>
+      <guid>http://www.wastalinux.org/home/about-save/</guid>
       <description> Wasta-Linux: About </description>
     </item>
     
     <item>
       <title>Customizing</title>
-      <link>http://www.wastalinux.org/hugo/home/customizing/</link>
+      <link>http://www.wastalinux.org/home/customizing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/customizing/</guid>
+      <guid>http://www.wastalinux.org/home/customizing/</guid>
       <description>Wasta-Linux: Customizing for your Needs Wasta-Linux is intended to be used as a base for regionally-localized Linux &amp;ldquo;customized&amp;rdquo; distributions specific to locations&amp;rsquo; needs (fonts, keyboards, applications, settings, included reference documents, etc.). Should you be interested in being a &amp;ldquo;regional customizer&amp;rdquo; of Wasta-Linux, please use the forums linked at the bottom of this page and someone will contact you.
 There are 2 primary Wasta-Linux customizing methods, both of which can be used to create custom Wasta-Linux ISOs to re-distribute to users:</description>
     </item>
     
     <item>
       <title>Downloads</title>
-      <link>http://www.wastalinux.org/hugo/home/download/</link>
+      <link>http://www.wastalinux.org/home/download/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/download/</guid>
+      <guid>http://www.wastalinux.org/home/download/</guid>
       <description>Wasta-Linux: Downloads If you are unsure of which download may be best for your hardware, please use the links at the bottom of this page to post to the Wasta-Linux Users list to ask for clarification.
 18.04  Wasta-Linux-18.04.3-64Bit  updated: 2019-08-30 md5: f13a4cf5d18e8f40a5cfd0722dc1d814  Notes:
  Based on Ubuntu 18.04 &amp;ldquo;Bionic&amp;rdquo; Interface: Cinnamon is the default interface, with Gnome-Shell also installed Long-Term Support: Security updates provided by Ubuntu through April 2023 UEFI Compatible: Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers Linux Kernel: 5.</description>
@@ -41,10 +41,10 @@ There are 2 primary Wasta-Linux customizing methods, both of which can be used t
     
     <item>
       <title>FAQ</title>
-      <link>http://www.wastalinux.org/hugo/home/faq/</link>
+      <link>http://www.wastalinux.org/home/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/faq/</guid>
+      <guid>http://www.wastalinux.org/home/faq/</guid>
       <description>Wasta-Linux: Frequently Asked Questions Below are answers to some of the more common questions you may have about Wasta-Linux. First, a question and response that lays the foundation for Wasta-Linux:
 Why Linux? One colleague answered the question &amp;ldquo;Why Linux&amp;rdquo; concisely using 3 main points. In brief, Linux is:
  Partner friendly: share with everyone, not only privledged organizations that have corporate license keys Budget friendly: not only does it not have a cost, it will also save support time Customizing friendly: adapt Linux to your use case, rather than having to adapt your usage to the limitations of a locked-down operating system that may not have you in mind as their target user base  Basically it is about freedom (not just &amp;ldquo;free as in no cost&amp;rdquo;), which means freedom to customize for our situation and for our specific users (see more below on this topic), freedom for all to use it, and &amp;ldquo;free from viruses.</description>
@@ -52,10 +52,10 @@ Why Linux? One colleague answered the question &amp;ldquo;Why Linux&amp;rdquo; c
     
     <item>
       <title>GitHub Setup</title>
-      <link>http://www.wastalinux.org/hugo/home/customizing/github-setup/</link>
+      <link>http://www.wastalinux.org/home/customizing/github-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/customizing/github-setup/</guid>
+      <guid>http://www.wastalinux.org/home/customizing/github-setup/</guid>
       <description>Wasta-Linux: GitHub Setup This page is part of the Wasta-Linux customizing process.
 Follow the below steps in order establish your GitHub ID and register a SSH key with GitHub in order to be ready to contribute to the Wasta-Linux custom packages hosted on GitHub.
  Sign up for a GitHub ID https://github.com/
@@ -64,39 +64,39 @@ Follow the below steps in order establish your GitHub ID and register a SSH key 
     
     <item>
       <title>Launchpad Setup</title>
-      <link>http://www.wastalinux.org/hugo/home/customizing/launchpad-setup/</link>
+      <link>http://www.wastalinux.org/home/customizing/launchpad-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/customizing/launchpad-setup/</guid>
+      <guid>http://www.wastalinux.org/home/customizing/launchpad-setup/</guid>
       <description> Launchpad Setup </description>
     </item>
     
     <item>
       <title>Maintain a Custom Package</title>
-      <link>http://www.wastalinux.org/hugo/home/customizing/maintain-package/</link>
+      <link>http://www.wastalinux.org/home/customizing/maintain-package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/customizing/maintain-package/</guid>
+      <guid>http://www.wastalinux.org/home/customizing/maintain-package/</guid>
       <description>Wasta-Linux: Maintain a Custom Package This page is part of the Wasta-Linux customizing process.
 Git is used for version control of all the Wasta-Linux custom packages. There is a Wasta-Linux organization on GitHub that contains separate GitHub repositories for each Wasta-Linux custom package. Any changes that are pushed up to these repositories are automatically copied every 6 hours to Launchpad, which is Ubuntu&amp;rsquo;s site for managing software. Once the code is in Launchpad, there is another automatic process that builds the actual software packages and places them in the Wasta-Linux Testing Launchpad PPA.</description>
     </item>
     
     <item>
       <title>Ubuntu Migration</title>
-      <link>http://www.wastalinux.org/hugo/home/ubuntu-migration/</link>
+      <link>http://www.wastalinux.org/home/ubuntu-migration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/ubuntu-migration/</guid>
+      <guid>http://www.wastalinux.org/home/ubuntu-migration/</guid>
       <description>How to turn Ubuntu into Wasta-Linux To take an existing Ubuntu 18.04 system and change it into Wasta-Linux 18.04, from a Terminal * perform the following steps:
  NOTE: Wasta-Linux only targets Ubuntu LTS (Long Term Support) releases, such as 18.04, 16.04, etc. Interim short-term Ubuntu releases such as 19.10, 19.04, etc. are not supported.   Get the Wasta-Linux core package installed: The following Terminal * commands (perform them one at a time) are needed to install the all-essential wasta-core-bionic package, which is the foundation for Wasta-Linux:</description>
     </item>
     
     <item>
       <title>Wasta-Remastersys</title>
-      <link>http://www.wastalinux.org/hugo/home/customizing/wasta-remastersys/</link>
+      <link>http://www.wastalinux.org/home/customizing/wasta-remastersys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/customizing/wasta-remastersys/</guid>
+      <guid>http://www.wastalinux.org/home/customizing/wasta-remastersys/</guid>
       <description>Wasta-Remastersys This page is part of the Wasta-Linux customizing process.
 The Wasta-Linux ISOs are created using Wasta-Remastersys. Wasta-Remastersys is also pre-installed in Wasta-Linux so that anyone can use it to create their own customized Wasta-Linux ISO.
 In order to create your own custom ISO, you can follow these steps:
@@ -106,10 +106,10 @@ In order to create your own custom ISO, you can follow these steps:
     
     <item>
       <title>Why Linux?</title>
-      <link>http://www.wastalinux.org/hugo/home/why-linux/</link>
+      <link>http://www.wastalinux.org/home/why-linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.wastalinux.org/hugo/home/why-linux/</guid>
+      <guid>http://www.wastalinux.org/home/why-linux/</guid>
       <description>Why Linux: a case study from our Organization* in NE Africa by Rik Shaw
 In 2012, our Organization, which supports translation and literacy projects in NE Africa, began migrating our computer operating systems from Windows to Linux. As of March 2014, all machines in this NE Africa location were migrated to Linux. As of 2019, several other of our Organization&amp;rsquo;s locations in Africa, North America, and Asia, have begun to embrace Linux, accounting for several hundred additional installations worldwide.</description>
     </item>

@@ -7,14 +7,14 @@
 <title>Maintain a Custom Package | wasta [Linux]</title>
 
 
-<link rel="stylesheet" href="/hugo/book.min.17ae4652bd42389d5b51ecea8de95e9867d6aa91aa6c938402769269b484ca28.css">
+<link rel="stylesheet" href="/book.min.17ae4652bd42389d5b51ecea8de95e9867d6aa91aa6c938402769269b484ca28.css">
 
 
-<script defer src="/hugo/search.min.2e09e0613270d160c8a43fc9c394178be81c33632c8b6b669db6efba39e2bb15.js"></script>
+<script defer src="/search.min.da7ede28f76441800892e485ea62ebcb3066464059200c7718450664e1c54c92.js"></script>
 
 
 
-<link rel="icon" href="/hugo/favicon.png" type="image/x-icon">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
 <!--
@@ -32,7 +32,7 @@ https://github.com/wasta-linux/book-wasta
     <aside class="book-menu fixed">
       <nav>
 <h1 class="book-brand" align="center">
-  <a href="http://www.wastalinux.org/hugo"><img src="/hugo/img/site-logo-64.png" alt="Logo"></a>
+  <a href="http://www.wastalinux.org"><img src="/img/site-logo-64.png" alt="Logo"></a>
 <br>wasta [Linux]
 </h1>
 
@@ -53,31 +53,31 @@ https://github.com/wasta-linux/book-wasta
   
 
   <style>
-  nav ul a[href$="\2fhugo\2fhome\2f customizing\2fmaintain-package\2f "] {
+  nav ul a[href$="\2fhome\2f customizing\2fmaintain-package\2f "] {
       color: #383c4a;
   }
   </style>
 
 <ul>
-<li><a href="/hugo/"><strong>Wasta-Linux: Home</strong></a>
+<li><a href="/"><strong>Wasta-Linux: Home</strong></a>
 
 <ul>
-<li><a href="/hugo/home/faq/">Frequently Asked Questions</a></li>
-<li><a href="/hugo/home/download/">Download</a></li>
-<li><a href="/hugo/home/ubuntu-migration/">Migrating from Ubuntu</a></li>
-<li><a href="/hugo/home/customizing/">Customizing</a></li>
+<li><a href="/home/faq/">Frequently Asked Questions</a></li>
+<li><a href="/home/download/">Download</a></li>
+<li><a href="/home/ubuntu-migration/">Migrating from Ubuntu</a></li>
+<li><a href="/home/customizing/">Customizing</a></li>
 </ul></li>
-<li><a href="/hugo/wasta-apps/"><strong>Wasta Apps</strong></a>
+<li><a href="/wasta-apps/"><strong>Wasta Apps</strong></a>
 
 <ul>
-<li><a href="/hugo/wasta-apps/wasta-backup/">Wasta-Backup</a></li>
-<li><a href="/hugo/wasta-apps/wasta-offline/">Wasta-Offline</a></li>
-<li><a href="/hugo/wasta-apps/wasta-layout/">Wasta-Layout</a></li>
-<li><a href="/hugo/wasta-apps/wasta-menus/">Wasta-Menus</a></li>
-<li><a href="/hugo/wasta-apps/wasta-resources/">Wasta-Resources</a></li>
+<li><a href="/wasta-apps/wasta-backup/">Wasta-Backup</a></li>
+<li><a href="/wasta-apps/wasta-offline/">Wasta-Offline</a></li>
+<li><a href="/wasta-apps/wasta-layout/">Wasta-Layout</a></li>
+<li><a href="/wasta-apps/wasta-menus/">Wasta-Menus</a></li>
+<li><a href="/wasta-apps/wasta-resources/">Wasta-Resources</a></li>
 </ul></li>
-<li><a href="/hugo/tutorials/"><strong>Tutorials</strong></a></li>
-<li><a href="/hugo/home/why-linux/"><strong>Why Linux?</strong></a></li>
+<li><a href="/tutorials/"><strong>Tutorials</strong></a></li>
+<li><a href="/home/why-linux/"><strong>Why Linux?</strong></a></li>
 </ul>
 
 
@@ -104,15 +104,15 @@ https://github.com/wasta-linux/book-wasta
     <div class="book-page">
       <header class="flex align-center book-header">
   <label for="menu-control">
-    <img src="/hugo/svg/menu.svg" alt="Menu" />
+    <img src="/svg/menu.svg" alt="Menu" />
   </label>
 </header>
 <h2 class="flex align-center book-header-show">
   <label for="menu-control">
-    <img src="/hugo/svg/menu.svg" alt="Menu" />
+    <img src="/svg/menu.svg" alt="Menu" />
   </label>
   &nbsp;&nbsp;&nbsp;
-  <img src="/hugo/img/site-logo-32.png" alt="Logo" />
+  <img src="/img/site-logo-32.png" alt="Logo" />
   &nbsp; wasta [Linux]
 </h2>
 
@@ -123,7 +123,7 @@ https://github.com/wasta-linux/book-wasta
 
 <h1 id="wasta-linux-maintain-a-custom-package">Wasta-Linux: Maintain a Custom Package</h1>
 
-<p>This page is part of the <a href="/hugo/home/customizing/">Wasta-Linux customizing process</a>.</p>
+<p>This page is part of the <a href="/home/customizing/">Wasta-Linux customizing process</a>.</p>
 
 <p>Git is used for version control of all the Wasta-Linux custom packages. There is a <a href="https://github.com/wasta-linux">Wasta-Linux organization</a> on GitHub that contains separate GitHub repositories for each Wasta-Linux custom package. Any changes that are pushed up to these repositories are automatically copied every 6 hours to Launchpad, which is Ubuntu&rsquo;s site for managing software. Once the code is in Launchpad, there is another automatic process that builds the actual software packages and places them in the <a href="https://launchpad.net/~wasta-linux/+archive/wasta-testing">Wasta-Linux Testing Launchpad PPA</a>. Once the &lsquo;Regional Customizer&rsquo; (you!) confirms that the package from the Wasta-Linux Testing PPA is good, any Wasta-Linux Launchpad member can copy it to the <a href="https://launchpad.net/~wasta-linux/+archive/ubuntu/wasta">main Wasta-Linux Launchpad PPA</a>. This main PPA is already included in every Wasta-Linux system, so once the packages exist in the PPA, all Wasta-Linux users will be able to install them when they update their system.</p>
 
@@ -139,7 +139,7 @@ https://github.com/wasta-linux/book-wasta
 <ol>
 <li><h3 id="github-setup">GitHub setup</h3>
 
-<p>You will need to create a GitHub account and register your SSH key with GitHub. Follow the steps in this <a href="/hugo/home/customizing/github-setup/">GitHub setup guide</a>.</p></li>
+<p>You will need to create a GitHub account and register your SSH key with GitHub. Follow the steps in this <a href="/home/customizing/github-setup/">GitHub setup guide</a>.</p></li>
 
 <li><h3 id="install-dependencies">Install dependencies</h3>
 
@@ -479,7 +479,7 @@ git config --global user.name &quot;Your Name&quot;
 <p>After confirming the package in the Wasta-Testing PPA is ready to be distributed to other users, it must be copied to the main Wasta-Linux PPA. Any Wasta-Linux Launchpad member can copy packages between PPAs.</p>
 
 <ul>
-<li><a href="/hugo/home/customizing/launchpad-setup/">Follow this guide</a> to become a Wasta-Linux Launchpad member.</li>
+<li><a href="/home/customizing/launchpad-setup/">Follow this guide</a> to become a Wasta-Linux Launchpad member.</li>
 </ul>
 
 <p>The package is now available to all Wasta-Linux users.</p></li>

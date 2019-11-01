@@ -1,6 +1,6 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/example
 
-baseURL = 'http://www.wastalinux.org/hugo'
+baseURL = 'http://www.wastalinux.org'
 title = 'wasta [Linux]'
 theme = 'book-wasta'
 disableKinds = ['taxonomy', 'taxonomyTerm']
