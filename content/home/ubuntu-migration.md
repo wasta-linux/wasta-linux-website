@@ -13,7 +13,7 @@ To take an existing Ubuntu 18.04 system and change it into Wasta-Linux
 
 - ***NOTE:*** Wasta-Linux only targets Ubuntu LTS _(**L**ong **T**erm **S**upport)_ releases, such as **18.04**, **16.04**, etc.  Interim short-term Ubuntu releases such as **19.10**, **19.04**, etc. are _**not**_ supported.
 
-1. ### Get the Wasta-Linux core package installed:
+1. ## Get the Wasta-Linux core package installed:
 
     The following Terminal **\*** commands *(perform them one at a time)* are
 needed to install the all-essential wasta-core-bionic package, which is
@@ -29,7 +29,7 @@ the foundation for Wasta-Linux:
 
     - ***NOTE:*** you may want to restart your system at this point
 
-2. ### Install Cinnamon:
+2. ## Install Cinnamon:
 
     _(recommended but optional)_
 
@@ -52,7 +52,7 @@ whichever you prefer.
 
     - ***NOTE:*** If your system still logs into Ubuntu's default Gnome-Shell you can click the icon in the upper right of the user login box from the login screen and choose "Cinnamon".
 
-3. ### Run the relevant Wasta-Linux setup script:
+3. ## Run the relevant Wasta-Linux setup script:
 
     _(recommended but optional)_
 
@@ -92,7 +92,7 @@ whichever you prefer.
 
     - ***NOTE:*** You will definitely want to restart your system after this process has finished.
 
-4. ### Congratulations, you are now running Wasta-Linux!
+4. ## Congratulations, you are now running Wasta-Linux!
 
 ---
 **\*** _To open the Terminal, in Wasta-Linux go to ```Menu > Administration > Terminal```, or press the following keys at the same time: ```Ctrl + Alt + T```_
