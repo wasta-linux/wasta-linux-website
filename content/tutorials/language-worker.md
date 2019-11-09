@@ -1,12 +1,12 @@
 ---
-title: Language Worker Guide
+title: PNG Language Worker Guide
 type: docs
 bookToc: false
 ---
 
 <p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
 
-# Wasta-Linux Language Worker Guide
+# Wasta-Linux PNG Language Worker Guide
 
 ## What is Wasta-Linux? Who can use it?
 
