@@ -1,6 +1,6 @@
 # wasta-linux-website
 
-The [wasta-linux-website](www.wastalinux.org) is built using [Hugo](https://gohugo.io/). Hugo is a lightweight website generator that is used to build static websites with an integrated theming engine. Pages are written in markdown allowing easy creation and maintenance.
+The [wasta-linux-website](https://www.wastalinux.org) is built using [Hugo](https://gohugo.io/). Hugo is a lightweight website generator that is used to build static websites with an integrated theming engine. Pages are written in markdown allowing easy creation and maintenance.
 
 A custom theme named _book-wasta_ that was based on [hugo-book](https://themes.gohugo.io/hugo-book/) is used. It has been modified to allow printing of pages in the case that users would like to print out the tutorial pages to use for training or reference for new Wasta-Linux users.
 
