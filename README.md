@@ -30,8 +30,6 @@ Then make your own branch for your changes:
 git checkout -b "new-branch-name"
 ```
 
-
-
 ## Hugo Filestructure
 
 * **content/**

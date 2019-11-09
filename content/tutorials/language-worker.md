@@ -1,15 +1,20 @@
 ---
 title: Language Worker Guide
 type: docs
-bookToc: true
+bookToc: false
 ---
 
 <p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
+
 # Wasta-Linux Language Worker Guide
 
 ## What is Wasta-Linux? Who can use it?
 
-Nearly anyone can use Wasta-Linux instead of Windows on a computer. If you are used to using a Windows computer you will notice that some things look different ([click here to see major differences](https://sites.google.com/a/sil.org/mxb-wasta-linux/major-differences-from-windows)), but most things behave in similar ways. Wasta-Linux is especially designed for language work: developing and producing materials in minority languages. Materials you want to produce may include:
+Nearly anyone can use Wasta-Linux instead of Windows on a computer. If you are used to using a Windows computer you will notice that some things look different ([click here to see major differences](https://sites.google.com/a/sil.org/mxb-wasta-linux/major-differences-from-windows)), but most things behave in similar ways.
+
+{{< expand "More About Wasta-Linux" >}}
+
+Wasta-Linux is especially designed for language work: developing and producing materials in minority languages. Materials you want to produce may include:
 
 - books, magazines, newsletters in your language
 - videos, talking books, audio versions of books
@@ -30,7 +35,7 @@ In addition, Wasta-Linux includes these programs for language workers:
 - [**WeSay**](http://software.sil.org/wesay/) and [**Fieldworks Language Explorer**](http://software.sil.org/fieldworks/) -- Collect and sort words; produce written or online dictionaries
 - KeyMan For Linux -- Set the computer to type in any language ("special characters" or scripts)
 
-Other programs you can use in Wasta-Linux are:
+{{< expand "Other programs available in Wasta-Linux" >}}
 
 - [**Paratext**](http://paratext.org/) -- Translate the Bible into your language
 - [**Adapt It**](http://www.adapt-it.org/) -- Automated help to "adapt" Bible or other text from a related language
@@ -45,18 +50,19 @@ Other programs you can use in Wasta-Linux are:
 - **App Builders** -- Create an app for phones and tablets with text & audio in your language
 
 And much more...
+{{< /expand >}}
 
 One of the biggest advantages to using Wasta-Linux is that it can not "catch" Windows viruses. So you will not lose your work (and waste time) when a virus attacks your computer!
 
-### What do you need to know to use Wasta-Linux?
-
-If you have not used a computer before it is easy to start using programs for language work. You need a laptop or desktop computer and a power source for the computer.
+{{< /expand >}}
 
 ---
 
-## Wasta-Backup: Protecting your Language Data
+## What do you need to know to use Wasta-Linux?
 
-### Simple Automatic Backups
+If you have not used a computer before, it is easy to start using Wasta-Linux for language work. Click on an item below to learn about how to start using it for your work:
+
+{{< expand "Wasta-Backup: Protecting your Language Data" >}}
 
 The language data for your software in use, for example the Paratext files for Scripture, all live in Wasta-Linux in a "normal" or standard place on your hard disk in the computer. If we leave everything alone, then you do not really need to know where these files actually live... your advisor needs to know this... but you can pretty much forget about this concern.
 
@@ -91,9 +97,9 @@ Restoration of language data is a rather advanced topic for the Language Worker 
 Wasta-Backup does "remember" your data and keeps a running history as you progress in your work. So, if a bad day occurred way back three weeks ago, and **IF** you have been doing daily backups onto a memory stick
 (as you have been told to do), then it can be very easy to go back in time and restore the lost data to its former glory.
 
----
+{{< /expand >}}
 
-## Wasta-Offline: Update Software Easily by Memory Stick
+{{< expand " Wasta-Offline: Update Software Easily by Memory Stick" >}}
 
 ***Offline Updates of Software You Use***
 
@@ -101,15 +107,11 @@ One of the most powerful new features of Wasta-Linux is the ability to do a simp
 
 The system for this is called [Wasta-Offline]({{< relref "/wasta-apps/wasta-offline.md" >}}) and the software to help you is already present to run in your version of Wasta-Linux. What you will need however is for your Advisor to send you an "update" USB memory stick or maybe a flash SD card with all the software updates present and ready to go. This USB stick might come to you by messenger, or by an airplane drop off, or by some other means, even the Postal system if you live in town.
 
----
+{{< /expand >}}
 
-## Advanced Tasks
+{{< expand "File Management Using Nemo" >}}
 
-* ### File Management Using Nemo
-
-    {{< expand "File Management Tutorial" >}}
-
-if the Consultant needed to copy over language data files to move the data to a new computer, then he/she would want to know the basic file structure of Wasta-Linux, and where to copy the data files from, in the hierarchical file system of Linux. For this you would need to know Nemo, but you will find it very much like the MS Windows Explorer utility in Windows. The new part is understanding just where the common data files might live on the system.
+If the Consultant needed to copy over language data files to move the data to a new computer, then he/she would want to know the basic file structure of Wasta-Linux, and where to copy the data files from, in the hierarchical file system of Linux. For this you would need to know Nemo, but you will find it very much like the MS Windows Explorer utility in Windows. The new part is understanding just where the common data files might live on the system.
 
 You should take time to become familiar with the following features of the File Manager which are illustrated and explained below:
 
@@ -380,5 +382,7 @@ Many Linux software programs have special names that the people who created the 
 This "About" dialog tells us some information about the Nemo program. It gives us the current version of the program (1.8.3), a short description of what the program does, and a button that will display the open source license that ensures that Nemo remains a free program which can be freely distributed. When programmers fix bugs and add features they release new versions of a program -- each newer version has a higher version number.
 
 What is the version number of the Nemo program on your computer?
+
 {{< /expand >}}
+
 {{< /expand >}}
