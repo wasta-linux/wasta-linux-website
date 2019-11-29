@@ -13,8 +13,8 @@ bookToc: false
 - [Creating a bootable Wasta-Linux USB drive]({{< relref "/tutorials/create-bootable-usb.md" >}})
 - [In-Place Upgrades: Re-installing / Upgrading Wasta-Linux for users without a separate /home partition]({{< relref "/tutorials/inplace-upgrade.md" >}})
 - [Installing Wasta-Linux to an encrypted USB drive]({{< relref "/tutorials/usb-install.md" >}})
+- [Expanding image to USB drive]({{< relref "/tutorials/expand-usb-image.md" >}})
 - [Installing Wasta-Linux using VirtualBox]({{< relref "/tutorials/virtualbox-install.md" >}})
-
 
 ## Miscellaneous
 

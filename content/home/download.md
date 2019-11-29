@@ -53,6 +53,32 @@ Wasta-Linux 18.04.1 may be needed if you experience any hardware compatibility i
 * **Linux Kernel:** 4.13
 * **Paratext:** Paratext 7.5 **and** Paratext 8.0 supported
 {{< /tab >}}
+
+{{< tab "18.04 BT USB Image" >}}
+
+### [**Wasta-Linux-18.04.3-BT-USB**](http://www.wastalinux.org/downloads/other/usb-image/wasta-bt-2019-11-22.img.bz2)
+* ***updated:*** 2019-11-22
+* ***md5:*** 611439bc8d4cb489461d47de51eb7684
+* ***download size:*** 42GB
+* ***default encryption password:*** wastabt.123
+* ***default login password:*** user.123
+* [**USB Setup Instructions**]({{< relref "/tutorials/expand-usb-image.md" >}})
+
+***Notes:***
+
+* **Bootable USB Image:** Expand the file to a 64GB USB stick and boot directly from any host machine.
+* **Encrypted:** The image is encrypted so that any data from the USB system will not be readable if the USB is attempted to be used by others.
+* **BT Software Pre-Installed:** The following software for BT use is pre-installed:
+    * Adaptit, Audacity, Bloom, Fieldworks, Logos, Paratext 8, Paratext 9, Script___ App Builder, Pathway, Xiphos (Sword)
+    * ***Note:*** You will need your own registration keys to activate *Paratext* or *Logos*.
+* **Based on Ubuntu 18.04 "Bionic"**
+* **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
+* **Long-Term Support:** Security updates provided by Ubuntu through **April 2023**
+* **UEFI Compatible:** Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers
+* **Linux Kernel:** 5.0 (due to Ubuntu's "Hardware Enablement Stack"... the original 18.04 release included Linux Kernel 4.15)
+{{< /tab >}}
+
+
 {{< /tabs >}}
 
 ## Wasta-Linux Installation Tips and Tricks:
