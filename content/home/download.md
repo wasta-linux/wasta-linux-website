@@ -19,12 +19,12 @@ bookToc: false
 
 ***Notes:***
 
-* **Based on Ubuntu 18.04 "Bionic"**
+* **Based on _Ubuntu 18.04 "Bionic"_**
 * **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
 * **Linux Kernel:** 5.0 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release included *Linux Kernel 4.15*)
-* **Paratext:** *Paratext 8 / 9* supported (*Paratext 7.5* ***not*** available)
+* **Paratext:** *Paratext 8/9* supported (*Paratext 7.5* ***not*** available)
 * **AMD Users:** *Use the below 18.04.1 ISO for Lenovo 14W and possibly other computers with a recent AMD Graphics processors*
 
 {{< expand "Wasta-Linux 18.04.1 Hardware Compatibility Download" >}}
@@ -46,12 +46,12 @@ bookToc: false
 
 ***Notes:***
 
-* **Based on Ubuntu 16.04 "Xenial"**
+* **Based on _Ubuntu 16.04 "Xenial"_**
 * **Interface:** *Cinnamon* is the default interface, with *Ubuntu Unity* also installed
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2021**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
 * **Linux Kernel:** 4.13
-* **Paratext:** *Paratext 7.5* **and** *Paratext 8.0/9.0* supported
+* **Paratext:** *Paratext 7.5* **and** *Paratext 8/9* supported
 {{< /tab >}}
 
 {{< tab "18.04 BT USB Image" >}}
@@ -71,7 +71,7 @@ bookToc: false
 * **BT Software Pre-Installed:** The following software for BT use is pre-installed:
     * Adaptit, Audacity, Bloom, Fieldworks, Logos, Paratext 8, Paratext 9, Script___ App Builder, Pathway, Xiphos (Sword)
     * ***Note:*** You will need your own registration keys to activate *Paratext* or *Logos*.
-* **Based on Ubuntu 18.04 "Bionic"**
+* **Based on _Ubuntu 18.04 "Bionic"_**
 * **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
