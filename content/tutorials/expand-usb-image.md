@@ -69,9 +69,9 @@ A *Wasta-Linux* USB image is a pre-installed and pre-configured system ready to 
 
     After `ddrescue` finishes, your USB drive should be ready to boot from another machine. Use the shortcut required on your machine to select the USB drive as the boot selection.
 
-    You can find the default disk encryption password and user login password from the Download page notes.
+    You can find the default disk encryption passphrase and user login password from the Download page notes.
 
-5. ## Change Default Password and Passphrase
+5. ## Change Default Encryption Passphrase and Login Password
 
     To change the partition encryption passphrase, use `Disks` from the `Main Menu` and select the USB device (ignore the 'Block Device' entries). Then select the `LUKS` partition, and click the `gear` and `Change Passphrase...` as in this screenshot:
 

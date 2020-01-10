@@ -21,14 +21,14 @@ bookToc: false
 
 * **Based on Ubuntu 18.04 "Bionic"**
 * **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
-* **Long-Term Support:** Security updates provided by Ubuntu through **April 2023**
-* **UEFI Compatible:** Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers
-* **Linux Kernel:** 5.0 (due to Ubuntu's "Hardware Enablement Stack"... the original 18.04 release included Linux Kernel 4.15)
-* **Paratext:** Paratext 8.0 / 9 Beta supported (Paratext 7.5 ***not*** available)
+* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
+* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
+* **Linux Kernel:** 5.0 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release included *Linux Kernel 4.15*)
+* **Paratext:** *Paratext 8 / 9* supported (*Paratext 7.5* ***not*** available)
 * **AMD Users:** *Use the below 18.04.1 ISO for Lenovo 14W and possibly other computers with a recent AMD Graphics processors*
 
 {{< expand "Wasta-Linux 18.04.1 Hardware Compatibility Download" >}}
-Wasta-Linux 18.04.1 may be needed if you experience any hardware compatibility issues with the 5.0 Linux Kernel included in Wasta-Linux 18.04.3.
+*Wasta-Linux 18.04.1* may be needed if you experience any hardware compatibility issues with the *5.0 Linux Kernel* included in *Wasta-Linux 18.04.3*
 ### [**Wasta-Linux-18.04.1-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-1/WL-18.04.1.2-64bit.iso)
 * ***updated:*** 2018-09-27
 * ***md5:*** ce7f69957d92f11130732f37771dbac8
@@ -48,10 +48,10 @@ Wasta-Linux 18.04.1 may be needed if you experience any hardware compatibility i
 
 * **Based on Ubuntu 16.04 "Xenial"**
 * **Interface:** *Cinnamon* is the default interface, with *Ubuntu Unity* also installed
-* **Long-Term Support:** Security updates provided by Ubuntu through **April 2021**
-* **UEFI Compatible:** Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers
+* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2021**
+* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
 * **Linux Kernel:** 4.13
-* **Paratext:** Paratext 7.5 **and** Paratext 8.0 supported
+* **Paratext:** *Paratext 7.5* **and** *Paratext 8.0/9.0* supported
 {{< /tab >}}
 
 {{< tab "18.04 BT USB Image" >}}
@@ -60,7 +60,7 @@ Wasta-Linux 18.04.1 may be needed if you experience any hardware compatibility i
 * ***updated:*** 2019-11-22
 * ***md5:*** 611439bc8d4cb489461d47de51eb7684
 * ***download size:*** 42GB
-* ***default encryption password:*** wastabt.123
+* ***default encryption passphrase:*** wastabt.123
 * ***default login password:*** user.123
 * [**USB Setup Instructions**]({{< relref "/tutorials/expand-usb-image.md" >}})
 
@@ -73,22 +73,23 @@ Wasta-Linux 18.04.1 may be needed if you experience any hardware compatibility i
     * ***Note:*** You will need your own registration keys to activate *Paratext* or *Logos*.
 * **Based on Ubuntu 18.04 "Bionic"**
 * **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
-* **Long-Term Support:** Security updates provided by Ubuntu through **April 2023**
-* **UEFI Compatible:** Fully Compatible with newer UEFI and Secure Boot features used by Windows 8+ computers
-* **Linux Kernel:** 5.0 (due to Ubuntu's "Hardware Enablement Stack"... the original 18.04 release included Linux Kernel 4.15)
+* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
+* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
+* **Linux Kernel:** 5.0 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release included *Linux Kernel 4.15*)
 {{< /tab >}}
-
 
 {{< /tabs >}}
 
-## Wasta-Linux Installation Tips and Tricks:
+## *Wasta-Linux* Installation Tips and Tricks:
 
-* [**The above images can be put on a USB flash drive or DVD**]({{< relref "/tutorials/create-bootable-usb.md" >}}) just like a standard Ubuntu or Linux Mint ISO.
+* [**The above images can be put on a USB flash drive or DVD**]({{< relref "/tutorials/create-bootable-usb.md" >}}) just like a standard *Ubuntu* or *Linux Mint* ISO.
 
-* [**Follow these instructions**]({{< relref "/home/ubuntu-migration.md" >}}) if you aren't starting with a Wasta-Linux ISO but rather want to upgrade your existing Ubuntu installation to Wasta-Linux.
+* [**Follow these instructions**]({{< relref "/home/ubuntu-migration.md" >}}) if you aren't starting with a *Wasta-Linux* ISO but rather want to upgrade your existing *Ubuntu* installation to *Wasta-Linux*.
 
-* If you are wanting to do an "in-place upgrade" from a previous version of Wasta-Linux and don't have a separate home partition, you can [**follow this guide.**]({{< relref "/tutorials/inplace-upgrade.md" >}})
+* If you are wanting to do an *"in-place upgrade"* from a previous version of Wasta-Linux and don't have a separate home partition, you can [**follow this guide.**]({{< relref "/tutorials/inplace-upgrade.md" >}})
 
-* If you are wanting to run Wasta-Linux in VirtualBox, [**first read these instructions.**]({{< relref "/tutorials/virtualbox-install.md" >}})
+* If you are wanting to run *Wasta-Linux* in *VirtualBox*, [**first read these instructions.**]({{< relref "/tutorials/virtualbox-install.md" >}})
 
-* To install Wasta-Linux to a portable, encrypted USB drive without touching the main OS on the computer, [**you can follow this guide.**]({{< relref "/tutorials/usb-install.md" >}})
+* To perform a full installation of *Wasta-Linux* to a portable, encrypted USB drive without touching the main OS on the computer, [**you can follow this guide.**]({{< relref "/tutorials/usb-install.md" >}})
+
+* To use a pre-configured *Wasta-Linux* USB Image that can be run from a USB Drive without going through the full installation procedure, please click on the `USB Image` tab above for instructions.
