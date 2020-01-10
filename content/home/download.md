@@ -7,7 +7,7 @@ bookToc: false
 <p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
 # Wasta-Linux: Downloads
 
-*If you are unsure of which download may be best for your hardware, please use the links at the bottom of this page to post to the Wasta-Linux Users list to ask for clarification.*
+*If you are unsure of which download may be best for your hardware, please use the links at the bottom of this page to post to the Wasta-Linux User Forum(s) to ask for clarification.*
 
 ### {{< tabs "downloads" >}}
 
