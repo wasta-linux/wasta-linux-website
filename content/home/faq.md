@@ -38,7 +38,7 @@ For the curious, here is a summary of some of the most significant modifications
 * ***Several applications added, several others removed.*** Notable additions include:
   * [**Wasta-Backup:**]({{< relref "/wasta-apps/wasta-backup.md" >}}) simple "version backup" utility
   * [**Wasta-Offline:**]({{< relref "/wasta-apps/wasta-offline.md" >}}) offline software updates and installs
-  * [**Wasta-Layout:**]({{< relref "/wasta-apps/wasta-layout.md" >}}) desktop layout settings utility
+  * [**Cinnamon-Layout:**]({{< relref "/wasta-apps/cinnamon-layout.md" >}}) desktop layout settings utility
   * [**Wasta-Menus:**]({{< relref "/wasta-apps/wasta-menus.md" >}}) limits the visible applications in the Main Menu
   * [**Wasta-Resources:**]({{< relref "/wasta-apps/wasta-resources.md" >}}) centralized distribution of reference and documentation materials
   * **Bloom:** Literacy materials development for language communities

@@ -9,7 +9,7 @@ bookToc: false
 
 Wasta-Linux is a computer operating system perfect for anyone wanting a **virus-resistant** system that is not only **free to share with anyone** but also provides **freedom** of flexibility and customization.
 
-Regardless of what platform you're coming from, Wasta-Linux has an intuitive interface that is made to look familiar. The default desktop looks and feels a lot like **Microsoft Windows**, while Wasta-Layout allows users to select interfaces inspired by **macOS** or **Ubuntu Unity**.
+Regardless of what platform you're coming from, Wasta-Linux has an intuitive interface that is made to look familiar. The default desktop looks and feels a lot like **Microsoft Windows**, while Cinnamon-Layout allows users to select interfaces inspired by **macOS** or **Ubuntu Unity**.
 
 Wasta-Linux is ready *"out of the box"* for all your computing needs. Feel free to explore more about Wasta-Linux through the menu on the left or:
 

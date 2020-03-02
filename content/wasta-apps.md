@@ -14,7 +14,7 @@ These applications have been created specifically with Wasta-Linux users in mind
 
 - [**Wasta-Offline**]({{< relref "/wasta-apps/wasta-offline.md" >}}): offline software updates and installs
 
-- [**Wasta-Layout**]({{< relref "/wasta-apps/wasta-layout.md" >}}): desktop layout settings utility 
+- [**Cinnamon-Layout**]({{< relref "/wasta-apps/cinnamon-layout.md" >}}): desktop layout settings utility 
 
 - [**Wasta-Menus**]({{< relref "/wasta-apps/wasta-menus.md" >}}): limits the visible applications in the Main Menu
 

@@ -9,7 +9,7 @@ headless: true
 - [**Wasta Apps**]({{< relref "/wasta-apps.md" >}})
   - [Wasta-Backup]({{< relref "/wasta-apps/wasta-backup.md" >}})
   - [Wasta-Offline]({{< relref "/wasta-apps/wasta-offline.md" >}})
-  - [Wasta-Layout]({{< relref "/wasta-apps/wasta-layout.md" >}})
+  - [Cinnamon-Layout]({{< relref "/wasta-apps/cinnamon-layout.md" >}})
   - [Wasta-Menus]({{< relref "/wasta-apps/wasta-menus.md" >}})
   - [Wasta-Resources]({{< relref "/wasta-apps/wasta-resources.md" >}})
 - [**Tutorials**]({{< relref "/tutorials.md" >}})
