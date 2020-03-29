@@ -13,9 +13,9 @@ bookToc: false
 
 {{< tab "18.04" >}}
 
-### [**Wasta-Linux-18.04.3-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-3/WL-18.04.3-64bit.iso)
-* ***updated:*** 2019-08-30
-* ***md5:*** f13a4cf5d18e8f40a5cfd0722dc1d814
+### [**Wasta-Linux-18.04.4-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-4/WL-18.04.4-64bit.iso)
+* ***updated:*** 2020-03-29
+* ***md5:*** 8c94605e4726e29341c2692e283d8ea2
 
 ***Notes:***
 
@@ -23,12 +23,12 @@ bookToc: false
 * **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
-* **Linux Kernel:** 5.0 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release included *Linux Kernel 4.15*)
-* **Paratext:** *Paratext 8/9* supported (*Paratext 7.5* ***not*** available)
-* **AMD Users:** *Use the below 18.04.1 ISO for Lenovo 14W and possibly other computers with a recent AMD Graphics processors*
+* **Linux Kernel:** 5.3 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release available below included *Linux Kernel 4.15* and may be needed for older hardware compatibility)
+* **Paratext:** *Paratext 8 / 9* supported (*Paratext 7.5* ***not*** available)
+* **AMD Users:** *Use the below 18.04.1 ISO for older devices if the*
 
 {{< expand "Wasta-Linux 18.04.1 Hardware Compatibility Download" >}}
-*Wasta-Linux 18.04.1* may be needed if you experience any hardware compatibility issues with the *5.0 Linux Kernel* included in *Wasta-Linux 18.04.3*
+*Wasta-Linux 18.04.1* may be needed if you experience any hardware compatibility issues with the *5.3 Linux Kernel* included in *Wasta-Linux 18.04.4*
 ### [**Wasta-Linux-18.04.1-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-1/WL-18.04.1.2-64bit.iso)
 * ***updated:*** 2018-09-27
 * ***md5:*** ce7f69957d92f11130732f37771dbac8
