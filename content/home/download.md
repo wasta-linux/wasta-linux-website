@@ -25,7 +25,6 @@ bookToc: false
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
 * **Linux Kernel:** 5.3 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release available below included *Linux Kernel 4.15* and may be needed for older hardware compatibility)
 * **Paratext:** *Paratext 8 / 9* supported (*Paratext 7.5* ***not*** available)
-* **AMD Users:** *Use the below 18.04.1 ISO for older devices if the*
 
 {{< expand "Wasta-Linux 18.04.1 Hardware Compatibility Download" >}}
 *Wasta-Linux 18.04.1* may be needed if you experience any hardware compatibility issues with the *5.3 Linux Kernel* included in *Wasta-Linux 18.04.4*
