@@ -14,12 +14,12 @@ bookToc: false
 {{< tab "18.04" >}}
 
 ### [**Wasta-Linux-18.04.4-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-4/WL-18.04.4-64bit.iso)
-* ***updated:*** 2020-03-29
-* ***md5:*** 8c94605e4726e29341c2692e283d8ea2
+* ***updated:*** 2020-04-14
+* ***md5:*** 1f3913eead2cb36cad777fe41657cd04
 
 ***Notes:***
 
-* **Based on _Ubuntu 18.04 "Bionic"_**
+* **Based on _Ubuntu 18.04.4 "Bionic"_**
 * **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
