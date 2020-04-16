@@ -34,25 +34,6 @@ bookToc: false
 {{< /expand >}}
 {{< /tab >}}
 
-{{< tab "16.04" >}}
-### [**Wasta-Linux-16.04.4-64Bit**](http://www.wastalinux.org/downloads/isos/wl-16-04-4/WL-16.04.4.2-64bit.iso)
-* ***updated:*** 2018-04-04
-* ***md5:*** 5de5238868ceab725e2bbc914b1d471e
-
-### [**Wasta-Linux-16.04.4-32Bit**](http://wastalinux.org/downloads/isos/wl-16-04-4/WL-16.04.4-32bit.iso)
-* ***updated:*** 2018-04-04
-* ***md5:*** 378bab914f86f208af021146a68c38ea
-
-***Notes:***
-
-* **Based on _Ubuntu 16.04 "Xenial"_**
-* **Interface:** *Cinnamon* is the default interface, with *Ubuntu Unity* also installed
-* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2021**
-* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
-* **Linux Kernel:** 4.13
-* **Paratext:** *Paratext 7.5* **and** *Paratext 8/9* supported
-{{< /tab >}}
-
 {{< tab "18.04 BT USB Image" >}}
 
 ### [**Wasta-Linux-18.04.3-BT-USB**](http://www.wastalinux.org/downloads/other/usb-image/wasta-bt-2019-11-22.img.bz2)
@@ -75,6 +56,40 @@ bookToc: false
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
 * **Linux Kernel:** 5.0 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release included *Linux Kernel 4.15*)
+{{< /tab >}}
+
+{{< tab "16.04" >}}
+### [**Wasta-Linux-16.04.4-64Bit**](http://www.wastalinux.org/downloads/isos/wl-16-04-4/WL-16.04.4.2-64bit.iso)
+* ***updated:*** 2018-04-04
+* ***md5:*** 5de5238868ceab725e2bbc914b1d471e
+
+### [**Wasta-Linux-16.04.4-32Bit**](http://wastalinux.org/downloads/isos/wl-16-04-4/WL-16.04.4-32bit.iso)
+* ***updated:*** 2018-04-04
+* ***md5:*** 378bab914f86f208af021146a68c38ea
+
+***Notes:***
+
+* **Based on _Ubuntu 16.04 "Xenial"_**
+* **Interface:** *Cinnamon* is the default interface, with *Ubuntu Unity* also installed
+* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2021**
+* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
+* **Linux Kernel:** 4.13
+* **Paratext:** *Paratext 7.5* **and** *Paratext 8/9* supported
+{{< /tab >}}
+
+{{< tab "20.04 ALPHA" >}}
+
+### [**Wasta-Linux-20.04-ALPHA-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-ALPHA/WL-20.04-ALPHA-64bit.iso)
+* ***updated:*** 2020-04-14
+* ***md5:*** 9845c54958256188c22847d62dadaf58
+
+***Notes:***
+
+* **FOR TESTING ONLY: Based on _Ubuntu 20.04 "Focal Fossa"_**
+* **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
+* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2025**
+* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
+* **Linux Kernel:** 5.4 (due to *Ubuntu's "Hardware Enablement Stack"*)
 {{< /tab >}}
 
 {{< /tabs >}}
