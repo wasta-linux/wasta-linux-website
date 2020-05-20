@@ -4,7 +4,7 @@ type: docs
 bookToc: false
 ---
 
-<p align="center"> ![Wasta-Backup](../../img/wasta-apps/wasta-backup/wasta-backup-128.png)
+![Wasta-Backup](/media/wasta-apps/wasta-backup/wasta-backup-128.png)
 
 # Wasta-Backup: Simple Version-Backup Program
 
@@ -18,7 +18,7 @@ If you want to know more, Wasta-Backup is a simple graphical interface for `rdif
 
 Here is a screenshot of *Wasta-Backup:*
 
-<p align="center"> ![Wasta-Backup Screenshot](../../img/wasta-apps/wasta-backup/wasta-backup.png)
+![Wasta-Backup Screenshot](/media/wasta-apps/wasta-backup/wasta-backup.png)
 
 If you insert a USB device and start *Wasta-Backup,* the device will automatically be found and you just need to click `Backup` to begin.
 

@@ -4,7 +4,7 @@ type: docs
 bookToc: false
 ---
 
-<p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
+![Wasta-Linux](/media/wasta-linux-round-128.png)
 
 # Guidelines for Creating Wasta-Linux Tutorials
 
@@ -14,7 +14,7 @@ bookToc: false
 
 * ### Shutter Main Window
 
-    <p align="center"> ![Shutter Main Window](../../img/tutorials/tutorial-guidelines/shutter-main.png)
+    ![Shutter Main Window](/media/tutorials/tutorial-guidelines/shutter-main.png)
 
     Hilighted above are the basic options for taking screenshots using the Shutter Main Window:
 
@@ -36,7 +36,7 @@ bookToc: false
 
 * ### Shutter Edit Window
 
-    <p align="center"> ![Shutter Edit Window](../../img/tutorials/tutorial-guidelines/shutter-edit.png)
+    ![Shutter Edit Window](/media/tutorials/tutorial-guidelines/shutter-edit.png)
 
     Additionally, Shutter provides the ability to do light editing of screenshot images. Hilighted above are the main features of the Shutter Edit Window:
 
@@ -60,22 +60,22 @@ bookToc: false
 
     First, right-click on your image and choose "Run a Plugin....":
 
-    <p align="center"> ![Shutter Plugins](../../img/tutorials/tutorial-guidelines/shutter-plugin.png)
+    ![Shutter Plugins](/media/tutorials/tutorial-guidelines/shutter-plugin.png)
 
     Then, choose "Hard Shadow" from the plugin list and click "Run":
 
-    <p align="center"> ![Shutter Hard Shadow](../../img/tutorials/tutorial-guidelines/shutter-shadow.png)
+    ![Shutter Hard Shadow](/media/tutorials/tutorial-guidelines/shutter-shadow.png)
 
     Keep the default settings in the Hard Shadow Window and click OK:
 
-    <p align="center"> ![Shutter Hard Shadow Save](../../img/tutorials/tutorial-guidelines/shutter-shadow-save.png)
+    ![Shutter Hard Shadow Save](/media/tutorials/tutorial-guidelines/shutter-shadow-save.png)
 
     The shadow is now applied and you are taken back to the Shutter Main Window:
 
-    <p align="center"> ![Shutter Hard Shadow End](../../img/tutorials/tutorial-guidelines/shutter-shadow-end.png)
+    ![Shutter Hard Shadow End](/media/tutorials/tutorial-guidelines/shutter-shadow-end.png)
 
     You will now be able to notice the "checkered box" around the outside of the image which indicates the shadow has been applied to a transparent background. When pasting this image into a document, the checkers will not appear, but the shadow will blend into the background of the document:
 
-    <p align="center"> ![Shutter LibreOffice Shadow](../../img/tutorials/tutorial-guidelines/shutter-lo-shadow.png)
+    ![Shutter LibreOffice Shadow](/media/tutorials/tutorial-guidelines/shutter-lo-shadow.png)
 
     ---

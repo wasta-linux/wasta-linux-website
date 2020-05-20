@@ -4,7 +4,7 @@ type: docs
 bookToc: true
 ---
 
-<p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
+![Wasta-Linux](/media/wasta-linux-round-128.png)
 
 # Wasta-Linux: Installing to an Encrypted USB Drive
 
@@ -26,13 +26,13 @@ It may be desirable to install Wasta-Linux to an encrypted USB drive for securit
 
     When coming to the "Installation type" screen, choose "Erase Disk and install Wasta-Linux." Also ticked the box next to "Encrypt the new Wasta Linux installation for security" (which then by default selects the LVM tick box as well). See screenshot below:
 
-    ![Erase & Install](../../img/tutorials/usb-install/EraseInstall.png)
+    ![Erase & Install](/media/tutorials/usb-install/EraseInstall.png)
 
 5. ## Setup Encryption Security Key
 
     Enter an encryption key and optionally chose to overwrite empty disk space for additional security. See screenshot below:
 
-    ![Encryption Key](../../img/tutorials/usb-install/SecurityKey.png)
+    ![Encryption Key](/media/tutorials/usb-install/SecurityKey.png)
 
 6. ## Complete Installation
 
@@ -52,7 +52,7 @@ It may be desirable to install Wasta-Linux to an encrypted USB drive for securit
 
     See screenshot below:
 
-    ![Final Partitions](../../img/tutorials/usb-install/FinalPartitions.png)
+    ![Final Partitions](/media/tutorials/usb-install/FinalPartitions.png)
 
 7. ## Test target USB system
 
@@ -62,4 +62,4 @@ It may be desirable to install Wasta-Linux to an encrypted USB drive for securit
 
     Inserting the USB into another computer already running Linux will prompt for the encryption key before mounting the USB drive. A machine running Windows will not be able to prompt for the encryption key and will not be able to mount the USB drive. So overall this seems like a quite secure system that is not known to the host machine. See screenshot below to see the prompt that comes up when inserting the USB drive into an already-running Linux system:
 
-    ![Unlock Partition](../../img/tutorials/usb-install/MountUSB.png)
+    ![Unlock Partition](/media/tutorials/usb-install/MountUSB.png)

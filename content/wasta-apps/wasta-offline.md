@@ -4,7 +4,7 @@ type: docs
 bookToc: false
 ---
 
-<p align="center"> ![Wasta-Offline](../../img/wasta-apps/wasta-offline/wasta-offline-128.png)
+![Wasta-Offline](/media/wasta-apps/wasta-offline/wasta-offline-128.png)
 
 # Wasta-Offline: Offline Software Updates and Installs
 
@@ -15,7 +15,7 @@ bookToc: false
  The first step in using Wasta-Offline is to populate the 'wasta-offline' folder from a 'source machine' for use on other 'destination machines'.  This can be done using 2 different methods (they can both be used in tandem if desired):
 
 - **Wasta-Offline-Setup:** The Wasta-Offline-Setup utility can be used to copy the existing local cached packages from the 'source machine' to a 'wasta-offline' folder, typically located on a USB drive. Here is a screenshot of Wasta-Offline-Setup:
-  <p align="center"> ![Wasta-Offline-Setup Screenshot](../../img/wasta-apps/wasta-offline/wasta-offline-setup.png)
+  ![Wasta-Offline-Setup Screenshot](/media/wasta-apps/wasta-offline/wasta-offline-setup.png)
 
   - Specifically, Wasta-Offline-Setup will copy the packages to a `wasta-offline/local-cache` folder. Wasta-Offline-Setup will keep separate caches for 32-bit and 64-bit architectures, so if you want to use Wasta-Offline for destination machines of both architectures you will need to run Wasta-Offline-Setup from multiple source machines (one 32-bit source machine and one 64-bit source machine).
 
@@ -31,7 +31,7 @@ bookToc: false
 
 See this screenshot of running Wasta-Offline on a destination machine:
 
-<p align="center"> ![Wasta-Offline Screenshot](../../img/wasta-apps/wasta-offline/wasta-offline.png)
+![Wasta-Offline Screenshot](/media/wasta-apps/wasta-offline/wasta-offline.png)
 
 The first thing to note is that Wasta-Offline has the option to run in 2 different "modes", explained in detail here:
 
@@ -41,7 +41,7 @@ The first thing to note is that Wasta-Offline has the option to run in 2 differe
 
 Once selecting the mode that Wasta-Offline will run in, the necessary system adjustments are made and the following window is displayed:
 
-<p align="center"> ![Wasta-Offline Ready](../../img/wasta-apps/wasta-offline/wasta-offline-ready.png)
+![Wasta-Offline Ready](/media/wasta-apps/wasta-offline/wasta-offline-ready.png)
 
 *This window needs to stay open while other software utilities are used* (such as *Synaptic Package Manager*) to perform the actual software package updates or installs. Note that due to some unfortunate shortcomings, *Software Center* is not able to be used in the default 'Offline Only Mode', as it requires an internet connection to install software.
 

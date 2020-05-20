@@ -4,7 +4,7 @@ type: docs
 bookToc: false
 ---
 
-<p align="center"> ![Ubuntu to Wasta-Linux](../../img/home/ubuntu-migration/ubu-2-wasta.png)
+![Ubuntu to Wasta-Linux](/media/home/ubuntu-migration/ubu-2-wasta.png)
 
 # How to turn Ubuntu into Wasta-Linux
 

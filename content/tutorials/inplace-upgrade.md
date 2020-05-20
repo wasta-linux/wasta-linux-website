@@ -4,7 +4,7 @@ type: docs
 bookToc: true
 ---
 
-<p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
+![Wasta-Linux](/media/wasta-linux-round-128.png)
 
 # Inplace Upgrades: Migrating between major versions of Wasta-Linux
 
@@ -38,18 +38,18 @@ This guide is for migrating between major versions of Wasta-Linux (eg. from 16.0
     Create a USB installer as normal. Proceed as normal using the USB installer, ***making sure to choose "SOMETHING ELSE" at the "Installation type" screen***. You have your files backed up, right?
 :-)
 
-    ![Something Else](../../img/tutorials/inplace-upgrade/InPlace-1.png)
+    ![Something Else](/media/tutorials/inplace-upgrade/InPlace-1.png)
 
 3. ## Select Partition
 
     In the "Something Else" section, you want to choose the main partition and click the "Change" box:
 
-    ![Select Partition](../../img/tutorials/inplace-upgrade/InPlace-2.png)
+    ![Select Partition](/media/tutorials/inplace-upgrade/InPlace-2.png)
 
 4. ## Set Partition Properties
     Then choose "ext4" for the type, and choose "/". Make sure an NOT SELECT to format it (or you will wipe the data). It will warn you that it will NOT replace data in "non system folders".... basically this is telling us your home won't be wiped out so this is very important.
 
-    ![Partition Properties](../../img/tutorials/inplace-upgrade/InPlace-3.png)
+    ![Partition Properties](/media/tutorials/inplace-upgrade/InPlace-3.png)
 
 5. ## Continue WITHOUT Formatting Partition
 
@@ -57,9 +57,9 @@ This guide is for migrating between major versions of Wasta-Linux (eg. from 16.0
 
     You will get the following messages just informing you that it will ONLY delete data from the 'system folders' (meaning your ***HOME*** will not be deleted). The second message just indicates that the "swap" (for "virtual RAM") partition will be formatted. Click "Continue" to both messages.
 
-    ![Only Delete Data from System Folders](../../img/tutorials/inplace-upgrade/InPlace-4.png)
+    ![Only Delete Data from System Folders](/media/tutorials/inplace-upgrade/InPlace-4.png)
 
-    ![Swap Formatting](../../img/tutorials/inplace-upgrade/InPlace-5.png)
+    ![Swap Formatting](/media/tutorials/inplace-upgrade/InPlace-5.png)
 
 6. ## Proceed with install as normal
 

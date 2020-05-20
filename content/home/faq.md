@@ -4,7 +4,8 @@ type: docs
 bookToc: false
 ---
 
-<p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
+![Wasta-Linux](/media/wasta-linux-round-128.png)
+
 # Wasta-Linux: Frequently Asked Questions
 
 Below are answers to some of the more common questions you may have about Wasta-Linux. First, a question and response that lays the foundation for Wasta-Linux:

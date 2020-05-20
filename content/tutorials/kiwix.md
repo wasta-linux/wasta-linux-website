@@ -4,13 +4,13 @@ type: docs
 bookToc: false
 ---
 
-<p align="center"> ![Kiwix](../../img/tutorials/kiwix/Kiwix.png)
+![Kiwix](/media/tutorials/kiwix/Kiwix.png)
 
 # Kiwix: Wikipedia Offline
 
 [**Kiwix**](https://www.kiwix.org/) is a software utility created to use Wikipedia and other large web-based content resources when internet is not available.
 
-<p align="center"> ![Kiwix Main](../../img/tutorials/kiwix/Kiwix-Main.png)
+![Kiwix Main](/media/tutorials/kiwix/Kiwix-Main.png)
 
 Here is an introduction to Kiwix from their website:
 
@@ -46,8 +46,8 @@ After Kiwix is installed, you can install any of the [content downloaded from Ki
 
 If you have installed the above two items, you should now find Kiwix in your Main Menu, and it should open automatically to the offline copy of the simple English version of Wikipedia. If you scroll down the default page, you should find a browseable category view (hilighted below):
 
-<p align="center"> ![Kiwix Categories](../../img/tutorials/kiwix/Kiwix-Categories.png)
+![Kiwix Categories](/media/tutorials/kiwix/Kiwix-Categories.png)
 
 You can also select the "Bookmarks" button (hilighted below in) in order to view, add, and delete bookmarks to pages that you want to keep for quick access. You can save notes on each bookmarked page in the bottom left:
 
-<p align="center"> ![Kiwix Bookmarks](../../img/tutorials/kiwix/Kiwix-Bookmarks.png)
+![Kiwix Bookmarks](/media/tutorials/kiwix/Kiwix-Bookmarks.png)

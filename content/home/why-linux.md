@@ -4,13 +4,11 @@ type: docs
 bookToc: false
 ---
 
-<p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
+![Wasta-Linux](/media/wasta-linux-round-128.png)
 
 # Why Linux: a case study from our Organization\* in NE Africa
 
-<p align="center"> *by Rik Shaw*
-
-<p align="center"> ![New Language Worker Training](../../img/home/why-linux/NewLanguageWorkerTraining.jpg)
+![New Language Worker Training](/media/home/why-linux/NewLanguageWorkerTraining.jpg)
 
 In 2012, our Organization, which supports translation and literacy projects in NE Africa, began migrating our computer operating systems from Windows to Linux. As of March 2014, all machines in this NE Africa location were migrated to Linux. As of 2019, several other of our Organization's locations in Africa, North America, and Asia, have begun to embrace Linux, accounting for several hundred additional installations worldwide.
 
@@ -28,7 +26,7 @@ Obviously the main argument people may use when promoting Linux is that it is "f
 
 {{< columns >}}
 
-![New Translator Training](../../img/home/why-linux/NewTranslatorTraining.jpg)
+![New Translator Training](/media/home/why-linux/NewTranslatorTraining.jpg)
 
 <--->
 
@@ -56,7 +54,7 @@ It is a continual headache and cycle of confusion, time, and concern. Many have 
 
 <--->
 
-![Laptop Repair](../../img/home/why-linux/LaptopRepair.jpg)
+![Laptop Repair](/media/home/why-linux/LaptopRepair.jpg)
 
 {{< /columns >}}
 
@@ -82,7 +80,7 @@ Contrast this familiarity of Cinnamon with Windows 8 interface forced on users s
 
 {{< columns >}}
 
-<p align="center"> ![Bloom Training](../../img/home/why-linux/BloomTraining.jpg)
+![Bloom Training](/media/home/why-linux/BloomTraining.jpg)
 
 <--->
 
@@ -102,7 +100,7 @@ In fact, 2 years ago I spent an entire morning with him helping him practice log
 
 <--->
 
-![Dust Storm](../../img/home/why-linux/Haboob.jpg)
+![Dust Storm](/media/home/why-linux/Haboob.jpg)
 
 {{< /columns >}}
 
@@ -126,7 +124,7 @@ For Windows, when he needs to re-install a system (often he goes this direction 
 
 <--->
 
-<p align="center"> ![Wasta Team](../../img/home/why-linux/WastaTeam.jpg)
+![Wasta Team](/media/home/why-linux/WastaTeam.jpg)
 
 {{< /columns >}}
 
@@ -136,7 +134,7 @@ Each of these installs require managing and referencing organized license lists:
 
 {{< columns >}}
 
-<p align="center"> ![Fatuur](../../img/home/why-linux/Fatuur.jpg)
+![Fatuur](/media/home/why-linux/Fatuur.jpg)
 
 <--->
 
@@ -154,7 +152,7 @@ The install process is so easy I have worked with other "non IT support" nationa
 
 Much Windows software is free-of-cost, but what I have observed is that often these "free programs" come with "wrapper installers" that load additional toolbars in your web browser, install additional advertisement software, etc. that eventually bloat the system and confuse the user. Yes, an experienced user will opt-out of these additional bloat-ware installs, but a novice ESL user will likely miss these "opt-out" options: leaving a system full of crud and possible conflicting utilities performing similar tasks but each doing things in ignorance of each other, *ultimately to the detriment of the user's experience*.
 
-<p align="center"> !["Free" Software?](../../img/home/why-linux/TooManyToolbars.png) <br>***Is this what "Free Software" means???***
+!["Free" Software?](/media/home/why-linux/TooManyToolbars.png) <br>***Is this what "Free Software" means???***
 
 Largely, however, the value in Linux being "genuine free software" means that the reasons behind and problems associated with pirated Microsoft software (Windows and Office) are made irrelevant. Let's be honest: none of my NE Africa friends are going to pay the costs of genuine MS software if their machines weren't purchased with it pre-installed. In NE Africa it is very common to purchase machines without genuine Microsoft software installed (instead pirated versions of Windows are used). In fact, it is quite difficult to even find a machine with genuine MS software to purchase, and if it is found, it is often identical to another machine but at a much higher price. As Microsoft has gotten more advanced in their attempted prevention of pirated versions of Windows, the pirates have also gotten more advanced. Currently, I have observed in NE Africa that it is quite common for the BIOS of a computer to be hacked to allow a pirated version of Windows to be installed. The result is that often the display drivers, network drivers, etc., are all confused and it is a very difficult situation to resolve. So, regardless of the ethics of the situation, there are practical headaches introduced by pirated software. I say "enough is enough" in this crazy cycle of Microsoft and the pirates continually attempting to "one-up" each other.
 
@@ -162,7 +160,7 @@ Regardless of the practical problem of piracy, I strongly feel there are ethical
 
 {{< columns >}}
 
-![Injera](../../img/home/why-linux/Injera.jpg)
+![Injera](/media/home/why-linux/Injera.jpg)
 
 <--->
 
@@ -188,7 +186,7 @@ In light of our Organization's efforts, we need to consider the "whole effort to
 
 <--->
 
-![A6 Follower](../../img/home/why-linux/A6.jpg)
+![A6 Follower](/media/home/why-linux/A6.jpg)
 
 {{< /columns >}}
 
@@ -196,7 +194,7 @@ To restate, what is happening in our part of NE Africa is certainly not an isola
 
 For the reasons laid out above I am suggesting that Linux being "free", "secure" and "simple" (for novice users with basic computing needs) best meets the needs of our targeted users in developing countries. So, those of us that choose to use MS products (and other tools not available in Linux) can at a minimum do our best to facilitate compatibility and interoperability. ***Let our "standard" be that which ALL of us can share in together*** *(Linux gives us this option).*
 
-<p align="center"> ![Rural Home](../../img/home/why-linux/RuralHome.jpg)
+![Rural Home](/media/home/why-linux/RuralHome.jpg)
 
 ---
 

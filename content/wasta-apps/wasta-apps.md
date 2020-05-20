@@ -4,7 +4,7 @@ type: docs
 bookToc: false
 ---
 
-<p align="center"> ![Wasta-Linux](../img/wasta-linux-round-128.png)
+{{< figure src="/media/wasta-linux-round-128.png" alt="Wasta-Applications" >}}
 
 # Wasta Applications
 

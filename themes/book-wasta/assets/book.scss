@@ -45,6 +45,9 @@ a {
 
 img {
   vertical-align: baseline;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 aside nav ul {
@@ -86,6 +89,7 @@ ul.pagination {
   max-width: $container-max-width;
   margin: 0 auto;
   min-height: 100vh;
+
 
   // 2019-09-15: below gets printing more than 1 page but crops sides
   // display: inline;
@@ -259,7 +263,7 @@ aside nav,
   will-change: transform, margin-left;
   background: $body-background;
   color: $body-font-color;
-  padding: $padding-4 $padding-16;
+  padding: $padding-16;
 }
 
 @media screen and (max-width: $md-breakpoint) {

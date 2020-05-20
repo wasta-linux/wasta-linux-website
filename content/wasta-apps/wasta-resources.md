@@ -4,7 +4,7 @@ type: docs
 bookToc: false
 ---
 
-<p align="center"> ![Wasta-Resources](../../img/wasta-apps/wasta-resources/wasta-resources-128.png)
+![Wasta-Resources](/media/wasta-apps/wasta-resources/wasta-resources-128.png)
 
 # Wasta-Resources: Centralized Distribution of Documentation
 

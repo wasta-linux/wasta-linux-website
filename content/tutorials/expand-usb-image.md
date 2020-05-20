@@ -4,7 +4,7 @@ type: docs
 bookToc: true
 ---
 
-<p align="center"> ![Wasta-Linux](../../img/wasta-linux-round-128.png)
+![Wasta-Linux](/media/wasta-linux-round-128.png)
 
 # Wasta-Linux: Expand Image to a USB Drive
 
@@ -18,7 +18,7 @@ A *Wasta-Linux* USB image is a pre-installed and pre-configured system ready to 
 
     The image file is compressed in `.bz2` format to reduce the size of the download. To decompress, in a standard *Wasta-Linux* system, right-click and choose `Extract Here`:
 
-    <p align="center"> ![Extract Here](../../img/tutorials/expand-usb-image/extract-here.png)
+    ![Extract Here](/media/tutorials/expand-usb-image/extract-here.png)
 
     The result should be a `.img` file which is now ready to be expanded to a USB drive.
 
@@ -28,7 +28,7 @@ A *Wasta-Linux* USB image is a pre-installed and pre-configured system ready to 
 
     Insert your USB drive and use `Disks` from the `Main Menu` to identify which device it is:
 
-    <p align="center"> ![Identify Drive](../../img/tutorials/expand-usb-image/identify-drive.png)
+    ![Identify Drive](/media/tutorials/expand-usb-image/identify-drive.png)
 
     In this example, the USB partition is listed as `/dev/sdd1`. **The root of this USB device is then `/dev/sdd`.**
 
@@ -75,13 +75,13 @@ A *Wasta-Linux* USB image is a pre-installed and pre-configured system ready to 
 
     To change the partition encryption passphrase, use `Disks` from the `Main Menu` and select the USB device (ignore the 'Block Device' entries). Then select the `LUKS` partition, and click the `gear` and `Change Passphrase...` as in this screenshot:
 
-    <p align="center"> ![Disks](../../img/tutorials/expand-usb-image/disks.png)
+    ![Disks](/media/tutorials/expand-usb-image/disks.png)
 
     **NOTE:** The *passphrase* used to unlock the encrypted partition should *not* be confused with the *encryption master key* which is used to actually encrypt the partition. By only changing the passphrase, you will prevent typical users from being able to unlock your encrypted partition, but you will not prevent advanced Linux users from being able to unlock the partition using the *encryption master key* from a copy of the USB image. Please see [6] below to re-encrypt your partition so it is unique to your installation.
 
     To change the user login password, use `Account Details` from the `Main Menu` and click on the current `Password` *(it will be masked by dots):*
 
-    <p align="center"> ![Account Details](../../img/tutorials/expand-usb-image/account-details.png)
+    ![Account Details](/media/tutorials/expand-usb-image/account-details.png)
 
 6. ## Change USB Drive's *Encryption Master Key*
 
@@ -99,7 +99,7 @@ A *Wasta-Linux* USB image is a pre-installed and pre-configured system ready to 
 
         - Open `Disks` from the `Main Menu` and select the USB device that you want to re-encrypt (ignore the 'Block Device' entries). Select the `LUKS` partition of the USB device. You will then be able to see the partition identifier in the details, as in this screenshot:
 
-        <p align="center"> ![Partition Identifier](../../img/tutorials/expand-usb-image/partition-identifier.png)
+        ![Partition Identifier](/media/tutorials/expand-usb-image/partition-identifier.png)
 
         - ***The partition of this USB device needing to be re-encrypted is `/dev/sdc3`.***
 

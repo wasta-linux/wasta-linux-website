@@ -4,7 +4,7 @@ type: docs
 bookToc: true
 ---
 
-<p align="center"> ![Wasta-Linux](../../../img/wasta-linux-round-128.png)
+![Wasta-Linux](/media/wasta-linux-round-128.png)
 
 # Wasta-Linux: Maintain a Custom Package
 
