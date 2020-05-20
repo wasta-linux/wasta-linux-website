@@ -19,4 +19,4 @@ Wasta-Linux is ready *"out of the box"* for all your computing needs. Feel free 
 * Wanting to customize to make your own version of Wasta-Linux for your users? Check the [**Customizing**]({{< relref "/home/customizing.md" >}}) page.
 * [**Why Linux**]({{< relref "/home/why-linux.md" >}}) is a good place to understand some of the background motivation for using Linux in a multi-national non-profit organization.
 
-![Wasta-Linux 18.04](img/index/wasta-linux-800.png)
+![Wasta-Linux 18.04](/media/index/wasta-linux-800.png)
