@@ -58,37 +58,33 @@ whichever you prefer.
 
     - ### Option 1:
 
-        Run the ```wasta-system-upgrade``` Terminal **\*** command:
+      Run the ```wasta-system-upgrade``` Terminal **\*** command:
 
-    ```
-    sudo wasta-system-upgrade
-    ```
+      ```
+      sudo wasta-system-upgrade
+      ```
 
-        This will perform the following steps:
+      This will perform the following steps:
+      - #### Install all software updates
 
-        - #### Install all software updates
-
-        - #### Install all default Wasta-Linux apps
+      - #### Install all default Wasta-Linux apps
 
     - ### Option 2:
 
-        Run the ```wasta-initial-setup``` Terminal **\*** command:
+      Run the ```wasta-initial-setup``` Terminal **\*** command:
 
-    ```
-    sudo wasta-initial-setup
-    ```
+      ```
+      sudo wasta-initial-setup
+      ```
 
-        In addition to the steps executed by the ```wasta-system-upgrade``` script, this script will perform these additional steps:
+      In addition to the steps executed by the ```wasta-system-upgrade``` script, this script will perform these additional steps:
+      - #### Remove unwanted apps
+        You will be prompted so you can answer ```No``` to the question if you don't want to remove the unwanted apps
 
-        - #### Remove unwanted apps
+      - #### Install the Ubuntu "Hardware Enablement" stack
+        This will upgrade the Linux Kernel and the x-server display server to the "Hardware Enablement" verisons distributed by Ubuntu, which is recommended for newer hardware.
 
-            You will be prompted so you can answer ```No``` to the question if you don't want to remove the unwanted apps
-
-        - #### Install the Ubuntu "Hardware Enablement" stack
-
-            This will upgrade the Linux Kernel and the x-server display server to the "Hardware Enablement" verisons distributed by Ubuntu, which is recommended for newer hardware.
-
-    - ***NOTE:*** For either of the above 2 commands if you want to run the full process "non-interactively", so that the app removals and other bits are done without prompting you, please append the ```auto``` parameter like this: ```sudo wasta-system-upgrade auto```
+    - ***NOTE:*** For either of the above 2 options if you want to run the full process "non-interactively", so that the app removals and other bits are done without prompting you, please append the ```auto``` parameter like this: ```sudo wasta-system-upgrade auto```
 
     - ***NOTE:*** You will definitely want to restart your system after this process has finished.
 

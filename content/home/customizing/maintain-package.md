@@ -1,7 +1,7 @@
 ---
 title: Maintain a Custom Package
 type: docs
-bookToc: true
+bookToc: false
 ---
 
 ![Wasta-Linux](/media/wasta-linux-round-128.png)
@@ -30,35 +30,34 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
 
         - ***Terminal \* command:***
 
-        ```
-        sudo apt-get install build-essential devscripts dh-make dpkg-dev git
-        ```
+          ```
+          sudo apt-get install build-essential devscripts dh-make dpkg-dev git
+          ```
 
     3. ### Configure git
 
         Git is used for version control so will need to be configured so that any changes you make will correctly be linked to your id.
 
         - ***Terminal \* commands:*** _(execute commands 1 at a time)_
-        ```
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
-        ```
+          ```
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+          ```
 
     4. ### Adjust your profile
 
         You need to adjust your profile settings so that your name and email will automatically be inserted when building the Wasta-Linux custom packages for local testing
 
         - ***Terminal \* command:***
-        ```
-        echo 'export DEBFULLNAME=Your\ Name' >> ~/.profile
-        ```
-
-            - ***NOTE:*** the ```\``` delimiter is needed to account for the space in the name (between ```Your``` and ```Name``` in this example)
+          ```
+          echo 'export DEBFULLNAME=Your\ Name' >> ~/.profile
+          ```
+          - ***NOTE:*** the ```\``` delimiter is needed to account for the space in the name (between ```Your``` and ```Name``` in this example)
 
         - ***Terminal \* command:***
-        ```
-        echo 'export DEBEMAIL=you@example.com' >> ~/.profile
-        ```
+            ```
+            echo 'export DEBEMAIL=you@example.com' >> ~/.profile
+            ```
 
             - ***NOTE:*** the user name and email address should match those used in step **"1.c"** above.
 
@@ -89,13 +88,13 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
 
         - Right click on the ```wasta-packages``` folder created in step **"1.f"** above and choose "Open in Terminal"
         - ***Terminal \* command:***
-        ```
-        git clone <pasted contents from your clipboard>
-        ```
+          ```
+          git clone <pasted contents from your clipboard>
+          ```
         - ***Example:***
-        ```
-            git clone git@github.com:wasta-linux/wasta-custom-eth.git
-        ```
+          ```
+          git clone git@github.com:wasta-linux/wasta-custom-eth.git
+          ```
 
         The "wasta-custom-eth" folder containing the current source code will now exist in your "wasta-packages" folder.
 
@@ -104,9 +103,9 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
     Right click on the "wasta-packages/wasta-custom-eth" folder and choose "Open in Terminal"
 
     * ***Terminal \* command:***
-    ```
-    git pull
-    ```
+      ```
+      git pull
+      ```
 
 3. ## Make changes to code
 
@@ -131,9 +130,9 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
         Use ```dch``` to create the new version and enter comments regarding what changes you will make
 
         - ***Terminal \* command:***
-        ```
-        dch --newversion 0.1.5
-        ```
+          ```
+          dch --newversion 0.1.5
+          ```
             - Replace ```0.1.5``` with your new version
 
             - if prompted, choose ```/bin/nano``` as the editor, as it is the easiest to use.
@@ -152,21 +151,21 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
 4. ## Build local test version
 
     - ***Terminal \* command:***
-    ```
-    debuild -b
-    ```
-    - Builds a ".deb" package file for local testing
-    - You must have a PGP key set up that will sign the packages. Creating the PGP key is above in step **"1.e"**
-    - The resulting .deb will be created "up" one directory in the ```wasta-packages``` folder created in step **"1.f"**
-    - "Lintian" checks are done looking for any standards violations. Clean up any errors found and re-run until it is clean.
+      ```
+      debuild -b
+      ```
+      - Builds a ".deb" package file for local testing
+      - You must have a PGP key set up that will sign the packages. Creating the PGP key is above in step **"1.e"**
+      - The resulting .deb will be created "up" one directory in the ```wasta-packages``` folder created in step **"1.f"**
+      - "Lintian" checks are done looking for any standards violations. Clean up any errors found and re-run until it is clean.
 
         - You can "Google" the full lintian phrase to see the warning description.
         - The following "warnings" can be ignored:
 
             - ***Terminal output:***
-            ```
-            dpkg-gencontrol: warning: Depends field of package wasta-custom-eth: unknown substitution variable ${shlibs:Depends}
-            ```
+              ```
+              dpkg-gencontrol: warning: Depends field of package wasta-custom-eth: unknown substitution variable ${shlibs:Depends}
+              ```
 
         - Use the created .deb to install manually on another local machine for testing to ensure all changes are applied correctly.
 
@@ -183,9 +182,9 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
         The ```debuild -b``` process from step 4 above creates some temporary build files that we don't want to keep. Clean them up! ***This is important or else the next step to add files to git will add these temporary files, which we don't want.***
 
         - ***Terminal \* command:***
-        ```
-        debclean
-        ```
+          ```
+          debclean
+          ```
 
     2. ### Add new files
 
@@ -193,9 +192,9 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
 
         - This is why it is important to run ```debclean``` first so that the temporary debian files won't be added to version control!
         - ***Terminal \* command:***
-        ```
-        git add --all
-        ```
+          ```
+          git add --all
+          ```
 
         - All files in the ```wasta-custom-xyz``` folder not already part of git version control will be added to it
 
@@ -204,18 +203,18 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
         (can be done at any time)
 
         - ***Terminal \* command:***
-        ```
-        git status
-        ```
+          ```
+          git status
+          ```
 
     4. ### Commit changes
 
         Until your changes are "committed" they are not updated in git.
 
         - ***Terminal \* command:***
-        ```
-        git commit -am "<short commit message>"
-        ```
+          ```
+          git commit -am "<short commit message>"
+          ```
 
             - ***Example:***
             ```
@@ -227,9 +226,9 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
         Pushing changes will transfer the git commits / updates to GitHub.
 
         - ***Terminal \* command:***
-        ```
-        git push
-        ```
+          ```
+          git push
+          ```
 
 6. ## Launchpad package creation
 
@@ -256,23 +255,23 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
             Ensure you have the Wasta-Linux Testing PPA added to your system
 
             - ***Terminal \* command:***
-            ```
-            sudo add-apt-repository ppa:wasta-linux/wasta-testing
-            ```
+              ```
+              sudo add-apt-repository ppa:wasta-linux/wasta-testing
+              ```
 
         2. #### Update your package lists
 
             - ***Terminal \* command:***
-            ```
-            sudo apt-get update
-            ```
+              ```
+              sudo apt-get update
+              ```
 
         3. #### Install test package
 
             - ***Terminal \* command:***
-            ```
-        sudo apt-get install wasta-custom-xyz
-            ```
+              ```
+              sudo apt-get install wasta-custom-xyz
+              ```
 
     3. ### Copy package to main PPA
 
