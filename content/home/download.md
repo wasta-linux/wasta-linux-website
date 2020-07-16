@@ -43,7 +43,7 @@ bookToc: false
 * ***download size:*** 42GB
 * ***default encryption passphrase:*** wastabt.123
 * ***default login password:*** user.123
-* [**USB Setup Instructions**]({{< relref "/tutorials/expand-usb-image.md" >}})
+* [**USB Setup Instructions**](/tutorials/expand-usb-image)
 
 ***Notes:***
 
@@ -97,14 +97,14 @@ bookToc: false
 
 ## *Wasta-Linux* Installation Tips and Tricks:
 
-* [**The above images can be put on a USB flash drive or DVD**]({{< relref "/tutorials/create-bootable-usb.md" >}}) just like a standard *Ubuntu* or *Linux Mint* ISO.
+* [**The above images can be put on a USB flash drive or DVD**](/tutorials/create-bootable-usb) just like a standard *Ubuntu* or *Linux Mint* ISO.
 
-* [**Follow these instructions**]({{< relref "/home/ubuntu-migration.md" >}}) if you aren't starting with a *Wasta-Linux* ISO but rather want to upgrade your existing *Ubuntu* installation to *Wasta-Linux*.
+* [**Follow these instructions**](/home/ubuntu-migration) if you aren't starting with a *Wasta-Linux* ISO but rather want to upgrade your existing *Ubuntu* installation to *Wasta-Linux*.
 
-* If you are wanting to do an *"in-place upgrade"* from a previous version of Wasta-Linux and don't have a separate home partition, you can [**follow this guide.**]({{< relref "/tutorials/inplace-upgrade.md" >}})
+* If you are wanting to do an *"in-place upgrade"* from a previous version of Wasta-Linux and don't have a separate home partition, you can [**follow this guide.**](/tutorials/inplace-upgrade)
 
-* If you are wanting to run *Wasta-Linux* in *VirtualBox*, [**first read these instructions.**]({{< relref "/tutorials/virtualbox-install.md" >}})
+* If you are wanting to run *Wasta-Linux* in *VirtualBox*, [**first read these instructions.**](/tutorials/virtualbox-install)
 
-* To perform a full installation of *Wasta-Linux* to a portable, encrypted USB drive without touching the main OS on the computer, [**you can follow this guide.**]({{< relref "/tutorials/usb-install.md" >}})
+* To perform a full installation of *Wasta-Linux* to a portable, encrypted USB drive without touching the main OS on the computer, [**you can follow this guide.**](/tutorials/usb-install)
 
 * To use a pre-configured *Wasta-Linux* USB Image that can be run from a USB Drive without going through the full installation procedure, please click on the `USB Image` tab above for instructions.

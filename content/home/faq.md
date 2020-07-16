@@ -17,7 +17,7 @@ One colleague answered the question "Why Linux" concisely using 3 main points. I
 * **Budget friendly:** not only does it not have a cost, it will also save support time
 * **Customizing friendly:** adapt Linux to your use case, rather than having to adapt your usage to the limitations of a locked-down operating system that may not have you in mind as their target user base
 
-Basically it is about freedom (not just "free as in no cost"), which means freedom to customize for our situation and for our specific users (see more below on this topic), freedom for _all_ to use it, and "free from viruses." **\*** For more on these freedoms, please read the ["case study" on our organization's move from Windows to Linux in NE Africa]({{< relref "/home/why-linux.md" >}}).
+Basically it is about freedom (not just "free as in no cost"), which means freedom to customize for our situation and for our specific users (see more below on this topic), freedom for _all_ to use it, and "free from viruses." **\*** For more on these freedoms, please read the ["case study" on our organization's move from Windows to Linux in NE Africa](/home/why-linux).
 
 ##### **\*** _Yes, eventually there may be Linux viruses, but its design is inherently more secure than Windows which was originally designed for single-user "non-networked" computers. Over the years Windows has applied security fixes in an "ad-hoc fashion" to try to account for today's always online environment, but many inherent vulnerabilities remain._
 
@@ -37,18 +37,18 @@ For the curious, here is a summary of some of the most significant modifications
 * ***"SIL ready":*** The SIL Linux repository is included and standard SIL fonts have been added, so that applications such as Paratext, Bloom, Fieldworks, Adapt It, WeSay and kmfl (Keyman) are ready for installation from the Software Center.
 
 * ***Several applications added, several others removed.*** Notable additions include:
-  * [**Wasta-Backup:**]({{< relref "/wasta-apps/wasta-backup.md" >}}) simple "version backup" utility
-  * [**Wasta-Offline:**]({{< relref "/wasta-apps/wasta-offline.md" >}}) offline software updates and installs
-  * [**Cinnamon-Layout:**]({{< relref "/wasta-apps/cinnamon-layout.md" >}}) desktop layout settings utility
-  * [**Wasta-Menus:**]({{< relref "/wasta-apps/wasta-menus.md" >}}) limits the visible applications in the Main Menu
-  * [**Wasta-Resources:**]({{< relref "/wasta-apps/wasta-resources.md" >}}) centralized distribution of reference and documentation materials
+  * [**Wasta-Backup:**](/wasta-apps/wasta-backup) simple "version backup" utility
+  * [**Wasta-Offline:**](/wasta-apps/wasta-offline) offline software updates and installs
+  * [**Cinnamon-Layout:**](/wasta-apps/cinnamon-layout) desktop layout settings utility
+  * [**Wasta-Menus:**](/wasta-apps/wasta-menus) limits the visible applications in the Main Menu
+  * [**Wasta-Resources:**](/wasta-apps/wasta-resources) centralized distribution of reference and documentation materials
   * **Bloom:** Literacy materials development for language communities
   * Skype
   * **Kdenlive:** Non-linear video editing software
   * **GoldenDict:** Offline (and online using Wikipedia or other sources) Dictionary / Thesaurus
   * **Modem Manager GUI:** USB 3G modem tool for balance check and top-up commands
   * **Pinta:** simple to use "MS Paint" alternative
-  * [**Kiwix:**]({{< relref "/tutorials/kiwix.md" >}}) offline simple English version of Wikipedia *(due to it's size - 1.6 GB - it is not installed by default in Wasta-Linux)*
+  * [**Kiwix:**](/tutorials/kiwix) offline simple English version of Wikipedia *(due to it's size - 1.6 GB - it is not installed by default in Wasta-Linux)*
   * **Klavaro:** typing tutor
   * *some useful command-line utilities such as:*
       * **wavemon:** a wifi network diagnostic tool
@@ -63,7 +63,7 @@ Wasta-Linux development began in 2011-2012 in NE Africa (أهلا وسهلا) wh
 
 Since 2014 the main development of Wasta-Linux has continued from Ethiopia (እንኳን ደህና መጣ) and it has become the primary operating system supported by our organization in Ethiopia, with nearly 200 installations and counting.
 
-Read more about the original motivations for Wasta-Linux in the ["case study" on our organization's move from Windows to Linux]({{< relref "/home/why-linux.md" >}}).
+Read more about the original motivations for Wasta-Linux in the ["case study" on our organization's move from Windows to Linux](/home/why-linux).
 {{< /expand >}}
 
 {{< expand "So, what is 'wasta' anyway?" >}}
@@ -78,5 +78,5 @@ Great question! There are several locations using Wasta-Linux around the world, 
 Beyond individual users that may find the Wasta-Linux system available here _"as-is"_ to fit them well in their situations, it is intended that Wasta-Linux can be used as a base for _"location specific customized versions"_ of Wasta-Linux (providing pre-installed location-specific fonts, keyboards, default applications, settings, reference documents and training materials, etc.). Once these "location specific customized Wasta-Linux versions" are made available, the ease of install of this customized Linux distribution will provide an opportunity for it to self-propagate throughout the region, even among low-tech computer users.
 
 If customizing is of interest to you, please see this page:
-[Wasta-Linux: Customizing for your needs]({{< relref "/home/customizing.md" >}})
+[Wasta-Linux: Customizing for your needs](/home/customizing)
 {{< /expand >}}
