@@ -4,10 +4,10 @@ type: docs
 bookToc: false
 ---
 
-![Wasta-Snap-Manager](/media/wasta-apps/wasta-snap-manager/wasta-snap-manager-dark.svg)
+![Wasta-Snap-Manager](/media/wasta-apps/wasta-snap-manager/wasta-snap-manager-dark-128.png)
 
 # Wasta-Snap-Manager
-# Selectively manage snap packages offline or online.
+# Selectively manage snap packages offline or online
 
 ## What are snap packages?
 From [https://snapcraft.io/docs/getting-started:](https://snapcraft.io/docs/getting-started)
@@ -38,13 +38,12 @@ However, you may find that snap packages can be very useful in certain circumsta
 &nbsp;
 
 ### Selectively choose which snaps to update
-![wsm-installed](/media/wasta-apps/wasta-snap-manager/wasta-snap-manager--installed3.75.png)
+![wsm-installed](/media/wasta-apps/wasta-snap-manager/wasta-snap-manager--installed.75.png)
 &nbsp;
 
 ### Install or update snaps from a Wasta-Offline folder
 ![wsm-available](/media/wasta-apps/wasta-snap-manager/wasta-snap-manager--available.75.png)
 &nbsp;
-
 
 ## What about flatpaks, AppImages, etc.?
 There are some other "all-in-one" app+package systems out there, and I will consider (or accept help in considering...) whether or not to also incorporate them into Wasta's ecosystem. But the initial focus has been on snap packages because of their centrality to Ubuntu's ecosystem.
