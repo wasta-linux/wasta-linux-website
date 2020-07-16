@@ -10,15 +10,17 @@ bookToc: false
 
 These applications have been created specifically with Wasta-Linux users in mind, and are pre-installed in Wasta-Linux:
 
-- [**Wasta-Backup**]({{< relref "/wasta-apps/wasta-backup.md" >}}): simple "version backup" utility
+- [**Wasta-Backup**](/wasta-apps/wasta-backup): simple "version backup" utility
 
-- [**Wasta-Offline**]({{< relref "/wasta-apps/wasta-offline.md" >}}): offline software updates and installs
+- [**Wasta-Offline**](/wasta-apps/wasta-offline): offline software updates and installs
 
-- [**Cinnamon-Layout**]({{< relref "/wasta-apps/cinnamon-layout.md" >}}): desktop layout settings utility 
+- [**Wasta-Snap-Manager**](/wasta-apps/wasta-snap-manager): selectively manage snap packages offline or online
 
-- [**Wasta-Menus**]({{< relref "/wasta-apps/wasta-menus.md" >}}): limits the visible applications in the Main Menu
+- [**Cinnamon-Layout**](/wasta-apps/cinnamon-layout): desktop layout settings utility
 
-- [**Wasta-Resources**]({{< relref "/wasta-apps/wasta-resources.md" >}}): centralized distribution of reference and documentation materials
+- [**Wasta-Menus**](/wasta-apps/wasta-menus): limits the visible applications in the Main Menu
+
+- [**Wasta-Resources**](/wasta-apps/wasta-resources): centralized distribution of reference and documentation materials
 
 &nbsp;
 

@@ -8,7 +8,7 @@ bookToc: false
 
 # Wasta-Linux: Maintain a Custom Package
 
-This page is part of the [Wasta-Linux customizing process]({{< relref "/home/customizing.md" >}}).
+This page is part of the [Wasta-Linux customizing process](/home/customizing).
 
 Git is used for version control of all the Wasta-Linux custom packages. There is a [Wasta-Linux organization](https://github.com/wasta-linux) on GitHub that contains separate GitHub repositories for each Wasta-Linux custom package. Any changes that are pushed up to these repositories are automatically copied every 6 hours to Launchpad, which is Ubuntu's site for managing software. Once the code is in Launchpad, there is another automatic process that builds the actual software packages and places them in the [Wasta-Linux Testing Launchpad PPA](https://launchpad.net/~wasta-linux/+archive/wasta-testing). Once the 'Regional Customizer' (you!) confirms that the package from the Wasta-Linux Testing PPA is good, any Wasta-Linux Launchpad member can copy it to the [main Wasta-Linux Launchpad PPA](https://launchpad.net/~wasta-linux/+archive/ubuntu/wasta). This main PPA is already included in every Wasta-Linux system, so once the packages exist in the PPA, all Wasta-Linux users will be able to install them when they update their system.
 
@@ -22,7 +22,7 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
 
     1. ### GitHub setup
 
-        You will need to create a GitHub account and register your SSH key with GitHub. Follow the steps in this [GitHub setup guide]({{< relref "/home/customizing/github-setup.md" >}}).
+        You will need to create a GitHub account and register your SSH key with GitHub. Follow the steps in this [GitHub setup guide](/home/customizing/github-setup).
 
     2. ### Install dependencies
 
@@ -277,7 +277,7 @@ Here then are the steps for maintaining a Wasta-Linux custom package. I will use
 
         After confirming the package in the Wasta-Testing PPA is ready to be distributed to other users, it must be copied to the main Wasta-Linux PPA. Any Wasta-Linux Launchpad member can copy packages between PPAs.
 
-        - [Follow this guide]({{< relref "/home/customizing/launchpad-setup.md" >}}) to become a Wasta-Linux Launchpad member.
+        - [Follow this guide](/home/customizing/launchpad-setup) to become a Wasta-Linux Launchpad member.
 
         The package is now available to all Wasta-Linux users.
 

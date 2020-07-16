@@ -8,7 +8,7 @@ bookToc: true
 
 # Wasta-Remastersys
 
-This page is part of the [Wasta-Linux customizing process]({{< relref "/home/customizing.md" >}}).
+This page is part of the [Wasta-Linux customizing process](/home/customizing).
 
 The Wasta-Linux ISOs are created using Wasta-Remastersys. Wasta-Remastersys is also pre-installed in Wasta-Linux so that anyone can use it to create their own customized Wasta-Linux ISO.
 
@@ -20,7 +20,7 @@ In order to create your own custom ISO, you can follow these steps:
 
 2. ## Customize Wasta-Linux
 
-    Follow either method listed on the [Wasta-Linux customizing page]({{< relref "/home/customizing.md" >}}).
+    Follow either method listed on the [Wasta-Linux customizing page](/home/customizing).
 
     - ***NOTE:*** Due to limitations of the ISO specification, there is a 4GB max size limitation on ISOs created with Wasta-Remastersys.
 

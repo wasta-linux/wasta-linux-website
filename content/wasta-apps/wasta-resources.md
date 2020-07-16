@@ -22,9 +22,9 @@ In both cases, Wasta-Resources simply provides a central location to place refer
 
 ## How do I add materials to Wasta-Resources?
 
-For people wanting to distribute materials this way, it would require you to maintain packages in the Wasta-Linux software repository, which is documented as part of the [Wasta-Linux customizing process]({{< relref "/home/customizing.md" >}}).
+For people wanting to distribute materials this way, it would require you to maintain packages in the Wasta-Linux software repository, which is documented as part of the [Wasta-Linux customizing process](/home/customizing).
 
-It is really easy for us to initially set up the Wasta-Resources packages, so if you want to work with us offline to give us whatever materials you want to distribute to your users, we can create the first`wasta-xyz-resources` package, after which any future modifications to this package will be made directly by you, the regional customizer. [Follow this guide to maintain 'wasta-custom-xyz' custom packages]({{< relref "/home/customizing/maintain-package.md" >}}).
+It is really easy for us to initially set up the Wasta-Resources packages, so if you want to work with us offline to give us whatever materials you want to distribute to your users, we can create the first`wasta-xyz-resources` package, after which any future modifications to this package will be made directly by you, the regional customizer. [Follow this guide to maintain 'wasta-custom-xyz' custom packages](/home/customizing/maintain-package).
 
 &nbsp;
 

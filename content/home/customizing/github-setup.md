@@ -8,7 +8,7 @@ bookToc: true
 
 # Wasta-Linux: GitHub Setup
 
-This page is part of the [Wasta-Linux customizing process]({{< relref "/home/customizing.md" >}}).
+This page is part of the [Wasta-Linux customizing process](/home/customizing).
 
 Follow the below steps in order establish your GitHub ID and register a
 SSH key with GitHub in order to be ready to contribute to the
