@@ -78,15 +78,15 @@ bookToc: false
 * **Paratext:** *Paratext 7.5* **and** *Paratext 8/9* supported
 {{< /tab >}}
 
-{{< tab "20.04 ALPHA" >}}
+{{< tab "20.04 BETA" >}}
 
-### [**Wasta-Linux-20.04-ALPHA-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-ALPHA/WL-20.04-ALPHA-64bit.iso)
-* ***updated:*** 2020-04-14
-* ***md5:*** 9845c54958256188c22847d62dadaf58
+### [**Wasta-Linux-20.04-BETA-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-BETA/WL-20.04-BETA-64bit.iso)
+* ***updated:*** 2020-07-25
+* ***md5:*** 786ad470a111d668dc5585b984e1a255
 
 ***Notes:***
 
-* **FOR TESTING ONLY: Based on _Ubuntu 20.04 "Focal Fossa"_**
+* **Based on _Ubuntu 20.04 "Focal Fossa"_**
 * **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2025**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
