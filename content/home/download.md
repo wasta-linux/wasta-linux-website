@@ -12,6 +12,21 @@ bookToc: false
 
 ### {{< tabs "downloads" >}}
 
+{{< tab "20.04" >}}
+
+### [**Wasta-Linux-20.04.1-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-1/WL-20.04.1-64bit.iso)
+* ***updated:*** 2020-09-20
+* ***md5:*** 0d58bc159522fba7a76f0c561989050a
+
+***Notes:***
+
+* **Based on _Ubuntu 20.04.1 "Focal Fossa"_**
+* **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
+* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2025**
+* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
+* **Linux Kernel:** 5.4
+{{< /tab >}}
+
 {{< tab "18.04" >}}
 
 ### [**Wasta-Linux-18.04.4-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-4/WL-18.04.4-64bit.iso)
@@ -57,40 +72,6 @@ bookToc: false
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
 * **Linux Kernel:** 5.0 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release included *Linux Kernel 4.15*)
-{{< /tab >}}
-
-{{< tab "16.04" >}}
-### [**Wasta-Linux-16.04.4-64Bit**](http://www.wastalinux.org/downloads/isos/wl-16-04-4/WL-16.04.4.2-64bit.iso)
-* ***updated:*** 2018-04-04
-* ***md5:*** 5de5238868ceab725e2bbc914b1d471e
-
-### [**Wasta-Linux-16.04.4-32Bit**](http://wastalinux.org/downloads/isos/wl-16-04-4/WL-16.04.4-32bit.iso)
-* ***updated:*** 2018-04-04
-* ***md5:*** 378bab914f86f208af021146a68c38ea
-
-***Notes:***
-
-* **Based on _Ubuntu 16.04 "Xenial"_**
-* **Interface:** *Cinnamon* is the default interface, with *Ubuntu Unity* also installed
-* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2021**
-* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
-* **Linux Kernel:** 4.13
-* **Paratext:** *Paratext 7.5* **and** *Paratext 8/9* supported
-{{< /tab >}}
-
-{{< tab "20.04 BETA" >}}
-
-### [**Wasta-Linux-20.04-BETA-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-BETA/WL-20.04-BETA-64bit.iso)
-* ***updated:*** 2020-07-25
-* ***md5:*** 786ad470a111d668dc5585b984e1a255
-
-***Notes:***
-
-* **Based on _Ubuntu 20.04 "Focal Fossa"_**
-* **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
-* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2025**
-* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
-* **Linux Kernel:** 5.4 (due to *Ubuntu's "Hardware Enablement Stack"*)
 {{< /tab >}}
 
 {{< /tabs >}}
