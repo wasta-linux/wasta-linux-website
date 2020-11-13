@@ -42,12 +42,29 @@ bookToc: false
 * **Linux Kernel:** 5.3 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release available below included *Linux Kernel 4.15* and may be needed for older hardware compatibility)
 * **Paratext:** *Paratext 8 / 9* supported (*Paratext 7.5* ***not*** available)
 
-{{< expand "Wasta-Linux 18.04.1 Hardware Compatibility Download" >}}
-*Wasta-Linux 18.04.1* may be needed if you experience any hardware compatibility issues with the *5.3 Linux Kernel* included in *Wasta-Linux 18.04.4*
+---
+
 ### [**Wasta-Linux-18.04.1-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-1/WL-18.04.1.2-64bit.iso)
+*Wasta-Linux 18.04.1* may be needed if you experience any hardware compatibility issues with the *5.3 Linux Kernel* included in *Wasta-Linux 18.04.4*. **Please Try Wasta-Linux 18.04.4 First!**
+
 * ***updated:*** 2018-09-27
 * ***md5:*** ce7f69957d92f11130732f37771dbac8
-{{< /expand >}}
+
+---
+
+### [**Wasta-Linux-18.04.5-32Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-5-32bit/WL-18.04.5-32bit.iso)
+*32-bit* is only needed for older computers (2010 and earlier) that do not support 64-bit. If you aren't certain you need *32-bit*, **please try Wasta-Linux 18.04.4 first!**
+
+* ***updated:*** 2020-11-12
+* ***md5:*** ccab8b18fec3b04d9b11bdfd0b5f5f02
+
+***Notes:***
+
+* **Interface:** *XFCE* is the default interface (more lightweight than *Cinnamon* for older, slower computers)
+* **Last 32-bit Version:** *Ubuntu* no longer provides 32-bit packages. This means it will not be possible to make newer 32-bit versions of *Wasta-Linux*.
+* **Installer Login:** Due to some minor bug, when starting the installer, it will prompt you for a login name and password. Please enter the following:
+  * **Login:** live
+  * **Password:** <blank> - just press *'Enter'*
 {{< /tab >}}
 
 {{< tab "18.04 BT USB Image" >}}
