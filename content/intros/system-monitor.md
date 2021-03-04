@@ -12,7 +12,7 @@ bookToc: false
 - See file system status.
 
 
-{{< video src="/media/intros/system-monitor/Wasta System Monitor.n.mp4" width="80%" >}}
+{{< video src="/media/intros/system-monitor/system-monitor.mp4" width="80%" >}}
 
 ## Also
 - Stop a misbehaving process.

@@ -8,8 +8,8 @@ bookToc: false
 
 ## App Installation
 
-{{< video src="/media/intros/software-manager/Wasta mintinstall software.n.mp4" width="80%" >}}
+{{< video src="/media/intros/software-manager/software-manager-installation.mp4" width="80%" >}}
 
 ## App Removal
 
-{{< video src="/media/intros/software-manager/Wasta mintinstall software removal.n.mp4" width="80%" >}}
+{{< video src="/media/intros/software-manager/software-manager-removal.mp4" width="80%" >}}
