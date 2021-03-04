@@ -11,10 +11,11 @@ bookToc: false
 - See live memory, CPU, and network usage.
 - See file system status.
 
+|
+:---: |
+{{< video src="/media/intros/system-monitor/system-monitor.mp4" width="80%" >}} |
 
-{{< video src="/media/intros/system-monitor/system-monitor.mp4" width="80%" >}}
-
-## Also
+## Other Features
 - Stop a misbehaving process.
 - Filter output using the search field.
 - Change visible columns.

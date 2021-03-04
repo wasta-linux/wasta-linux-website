@@ -6,12 +6,11 @@ bookToc: false
 
 # Introduction to Files app
 
-## Basic Usage
-- Browse and manage computer files and folders.
+## Browse and manage computer files and folders
+|
+:---: |
+{{< video src="/media/intros/files-app/files-app.mp4" width="80%" >}} |
 
-
-{{< video src="/media/intros/files-app/files-app.mp4" width="80%" >}}
-
-## Also
+## Other Features
 - Special actions for certain file types in the right-click menu.
 - Connect to network drives.
