@@ -14,65 +14,25 @@ bookToc: false
 
 {{< tab "20.04" >}}
 
-### [**Wasta-Linux-20.04.1-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-1/WL-20.04.1-64bit.iso)
-* ***updated:*** 2020-09-20
-* ***md5:*** 0d58bc159522fba7a76f0c561989050a
+### [**Wasta-Linux-20.04.2-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-2/WL-20.04.2-64bit.iso)
+* ***updated:*** 2021-03-12
+* ***md5:*** cd8f4d419eb9fc86c6d7b6bdc32bd3ca
 
 ***Notes:***
 
-* **Based on _Ubuntu 20.04.1 "Focal Fossa"_**
+* **Based on _Ubuntu 20.04.2 "Focal Fossa"_**
 * **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2025**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
-* **Linux Kernel:** 5.4
+* **Linux Kernel:** 5.8 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 20.04 release included *Linux Kernel 5.4* Please contact us if your hardware requires this older kernel)
 {{< /tab >}}
 
-{{< tab "18.04" >}}
+{{< tab "20.04 BT USB Image" >}}
 
-### [**Wasta-Linux-18.04.4-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-4/WL-18.04.4-64bit.iso)
-* ***updated:*** 2020-04-14
-* ***md5:*** 1f3913eead2cb36cad777fe41657cd04
-
-***Notes:***
-
-* **Based on _Ubuntu 18.04.4 "Bionic"_**
-* **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
-* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
-* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
-* **Linux Kernel:** 5.3 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release available below included *Linux Kernel 4.15* and may be needed for older hardware compatibility)
-* **Paratext:** *Paratext 8 / 9* supported (*Paratext 7.5* ***not*** available)
-
----
-
-### [**Wasta-Linux-18.04.1-64Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-1/WL-18.04.1.2-64bit.iso)
-*Wasta-Linux 18.04.1* may be needed if you experience any hardware compatibility issues with the *5.3 Linux Kernel* included in *Wasta-Linux 18.04.4*. **Please Try Wasta-Linux 18.04.4 First!**
-
-* ***updated:*** 2018-09-27
-* ***md5:*** ce7f69957d92f11130732f37771dbac8
-
----
-
-### [**Wasta-Linux-18.04.5-32Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-5-32bit/WL-18.04.5-32bit.iso)
-*32-bit* is only needed for older computers (2010 and earlier) that do not support 64-bit. If you aren't certain you need *32-bit*, **please try Wasta-Linux 18.04.4 first!**
-
-* ***updated:*** 2020-11-12
-* ***md5:*** ccab8b18fec3b04d9b11bdfd0b5f5f02
-
-***Notes:***
-
-* **Interface:** *XFCE* is the default interface (more lightweight than *Cinnamon* for older, slower computers)
-* **Last 32-bit Version:** *Ubuntu* no longer provides 32-bit packages. This means it will not be possible to make newer 32-bit versions of *Wasta-Linux*.
-* **Installer Login:** Due to some minor bug, when starting the installer, it will prompt you for a login name and password. Please enter the following:
-  * **Login:** live
-  * **Password:** <blank> - just press *'Enter'*
-{{< /tab >}}
-
-{{< tab "18.04 BT USB Image" >}}
-
-### [**Wasta-Linux-18.04.3-BT-USB**](http://www.wastalinux.org/downloads/other/usb-image/wasta-bt-2019-11-22.img.bz2)
-* ***updated:*** 2019-11-22
-* ***md5:*** 611439bc8d4cb489461d47de51eb7684
-* ***download size:*** 42GB
+## Coming Soon...
+* ***updated:***
+* ***md5:***
+* ***download size:*** xxGB
 * ***default encryption passphrase:*** wastabt.123
 * ***default login password:*** user.123
 * [**USB Setup Instructions**](/tutorials/expand-usb-image)
@@ -86,9 +46,35 @@ bookToc: false
     * ***Note:*** You will need your own registration keys to activate *Paratext* or *Logos*.
 * **Based on _Ubuntu 18.04 "Bionic"_**
 * **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
+* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2025**
+* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
+* **Linux Kernel:** 5.8 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 20.04 release included *Linux Kernel 5.4* Please contact us if your hardware requires the older *Linux Kernel 5.4*)
+{{< /tab >}}
+
+{{< tab "32-bit (18.04)" >}}
+
+### [**Wasta-Linux-18.04.5-32Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-5-32bit/WL-18.04.5-32bit.iso)
+*32-bit* is only needed for older computers (2010 and earlier) that do not support 64-bit. If you aren't certain you need *32-bit*, **please try Wasta-Linux 20.04 first!**
+
+* ***updated:*** 2020-11-12
+* ***md5:*** ccab8b18fec3b04d9b11bdfd0b5f5f02
+
+***Notes:***
+
+* **Based on _Ubuntu 18.04.4 "Bionic"_**
+* **Interface:** *Cinnamon* is the default interface, with *Gnome-Shell* also installed
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2023**
 * **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
-* **Linux Kernel:** 5.0 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release included *Linux Kernel 4.15*)
+* **Linux Kernel:** 5.3 (due to *Ubuntu's "Hardware Enablement Stack"* - the original 18.04 release available below included *Linux Kernel 4.15* and may be needed for older hardware compatibility)
+* **Paratext:** *Paratext 8 / 9* supported
+
+***Notes:***
+
+* **Interface:** *XFCE* is the default interface (more lightweight than *Cinnamon* for older, slower computers)
+* **Last 32-bit Version:** *Ubuntu* no longer provides 32-bit packages. This means it will not be possible to make newer 32-bit versions of *Wasta-Linux*.
+* **Installer Login:** Due to some minor bug, when starting the installer, it will prompt you for a login name and password. Please enter the following:
+  * **Login:** live
+  * **Password:** <blank> - just press *'Enter'*
 {{< /tab >}}
 
 {{< /tabs >}}

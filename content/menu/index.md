@@ -6,7 +6,6 @@ headless: true
   - [Download](/home/download)
   - [Migrating from Ubuntu](/home/ubuntu-migration)
   - [Customizing](/home/customizing)
-- [**Wasta Intros**](/intros)
 - [**Wasta Apps**](/wasta-apps)
   - [Wasta-Backup](/wasta-apps/wasta-backup)
   - [Wasta-Offline](/wasta-apps/wasta-offline)
