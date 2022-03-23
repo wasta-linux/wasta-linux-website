@@ -4,7 +4,7 @@ type: docs
 bookToc: false
 ---
 
-![Traffic Cop](/media/wasta-apps/traffic-cop/traffic-cop.svg)
+![Traffic Cop](/media/wasta-apps/traffic-cop/traffic-cop.png)
 
 # Traffic Cop: Manage bandwidth usage by app or process
 
@@ -14,7 +14,7 @@ bookToc: false
 - See live upload and download rates globally and for each managed process.
 - Default config provided that covers common use cases.
 
-![Traffic Cop window](/media/wasta-apps/traffic-cop/traffic-cop.png)
+![Traffic Cop window](/media/wasta-apps/traffic-cop/traffic-cop-window.png)
 
 ## Limitations
 Traffic Cop relies on **[nethogs](https://github.com/raboof/nethogs)** to track network usage. As of version 0.8.5-2 (default in Wasta 20.04), **nethogs** does not track UDP packets, which are used by many VoIP apps, including **Zoom** and **Skype**, and thus **Traffic Cop** also doesn't show reliable upload and download rates for UDP traffic. However, **Traffic Cop**, *does* properly manage this UDP traffic. You can confirm it for yourself if you have a pay-per-MB internet plan and check the counter provided by your ISP periodically during a call to verify that the rate you've set is being properly applied.
