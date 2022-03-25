@@ -15,8 +15,8 @@ bookToc: false
 {{< tab "20.04" >}}
 
 ### [**Wasta-Linux-20.04.5-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-5/WL-20.04.5-64bit.iso)
-* ***updated:*** 2022-03-23
-* ***md5:*** 462855a1dd5ac84758f765f5f3d5d613
+* ***updated:*** 2022-03-24
+* ***md5:*** cab1cc4abd64cc872c8927ab166c17dd
 
 ***Notes:***
 
