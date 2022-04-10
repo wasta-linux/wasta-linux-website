@@ -6,7 +6,7 @@ bookToc: false
 
 ![Wasta-Backup](/media/wasta-apps/wasta-backup/wasta-backup-128.png)
 
-# Wasta-Backup: Simple Version-Backup Program
+# Wasta-Backup: Simple Version-Backups
 
 ## What is it?
 
