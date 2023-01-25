@@ -42,9 +42,7 @@ For the curious, here is a summary of some of the most significant modifications
   * [**Cinnamon-Layout:**](/wasta-apps/cinnamon-layout) desktop layout settings utility
   * [**Wasta-Menus:**](/wasta-apps/wasta-menus) limits the visible applications in the Main Menu
   * [**Wasta-Resources:**](/wasta-apps/wasta-resources) centralized distribution of reference and documentation materials
-  * **Bloom:** Literacy materials development for language communities
-  * Skype
-  * **Kdenlive:** Non-linear video editing software
+  * **Shotcut:** Non-linear video editing software
   * **GoldenDict:** Offline (and online using Wikipedia or other sources) Dictionary / Thesaurus
   * **Modem Manager GUI:** USB 3G modem tool for balance check and top-up commands
   * **Pinta:** simple to use "MS Paint" alternative

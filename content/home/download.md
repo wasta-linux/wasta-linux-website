@@ -12,6 +12,24 @@ bookToc: false
 
 ### {{< tabs "downloads" >}}
 
+{{< tab "22.04" >}}
+
+### [**Wasta-Linux-22.04.1-64Bit**](http://www.wastalinux.org/downloads/isos/wl-22-04-1/WL-22.04.1-64bit.iso)
+* ***updated:*** 2023-01-25
+* ***md5:*** ff08d80f79453dddbbb24493bd008bf7
+
+***Notes:***
+
+* **Based on _Ubuntu 22.04.1 "Jammy Jellyfish"_**
+* **Interface:** *Cinnamon* is the default interface, with *Ubuntu Gnome-Shell* also installed
+* **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2027**
+* **UEFI Compatible:** Fully compatible with newer *UEFI* and *Secure Boot* features used by *Windows 8+* computers
+* **Linux Kernel:** 5.15
+* **SIL Software:** Many SIL apps are available as traditional `.deb` packages for use in Wasta-Linux including the *App Builders*, *Adapt It*, and others. Due to a design decision beyond our control, you will need to use *Synaptic Package Manager* (pre-installed) to find these SIL software applications.
+
+  However, traditional `.deb` versions of *.NET based SIL software* are not available for 22.04. Instead, `Flatpak` is used for distributing *Fieldworks* and *Bloom*, and `Snap` is used to distribute *Paratext (9.0)* and *Paratext Lite.* The *Software* application can be used to search for and install `flatpak` and `snap` applications.
+{{< /tab >}}
+
 {{< tab "20.04" >}}
 
 ### [**Wasta-Linux-20.04.5-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-5/WL-20.04.5-64bit.iso)

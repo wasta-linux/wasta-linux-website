@@ -8,9 +8,9 @@ bookToc: false
 
 # How to turn Ubuntu into Wasta-Linux
 
-To take an existing Ubuntu 20.04 system and change it into Wasta-Linux 20.04, from a Terminal **\*** perform the following steps:
+To take an existing Ubuntu 22.04 system and change it into Wasta-Linux 22.04, from a Terminal **\*** perform the following steps:
 
-- ***NOTE:*** Wasta-Linux only targets Ubuntu LTS _(**L**ong **T**erm **S**upport)_ releases, such as **20.04**, **18.04**, etc. Interim short-term Ubuntu releases such as **20.10**, **19.04**, etc. are _**not**_ supported.
+- ***NOTE:*** Wasta-Linux only targets Ubuntu LTS _(**L**ong **T**erm **S**upport)_ releases, such as **22.04**, **20.04**, etc. Interim short-term Ubuntu releases such as **23.04**, **22.10**, etc. are _**not**_ supported.
 
 1. ## Get the Wasta-Linux core package installed:
 
@@ -19,10 +19,10 @@ To take an existing Ubuntu 20.04 system and change it into Wasta-Linux 20.04, fr
     ```
     sudo add-apt-repository ppa:wasta-linux/wasta
     sudo apt-get update
-    sudo apt-get install wasta-core-focal
+    sudo apt-get install wasta-core
     sudo apt-get update
     ```
-    - ***NOTE:*** the second `apt-get update` is needed since `wasta-core-focal` adds additional repositories to your computer, such as `packages.sil.org` and the `wasta-apps` ppa. You then need this second `apt-get update` to make the packages from those repositories available for installation.
+    - ***NOTE:*** the second `apt-get update` is needed since `wasta-core` adds additional repositories to your computer, such as `packages.sil.org` and the `wasta-apps` ppa. You then need this second `apt-get update` to make the packages from those repositories available for installation.
 
     - ***NOTE:*** you may want to restart your system at this point
 
@@ -35,9 +35,9 @@ To take an existing Ubuntu 20.04 system and change it into Wasta-Linux 20.04, fr
     - The following Terminal **\*** commands *(perform them one at a time)* will install Cinnamon and set it as the default desktop interface:
 
       ```
-      sudo add-apt-repository ppa:wasta-linux/cinnamon-4-6
+      sudo add-apt-repository ppa:wasta-linux/cinnamon-5-4
       sudo apt-get update
-      sudo apt-get install wasta-cinnamon-focal
+      sudo apt-get install wasta-cinnamon
       sudo wasta-cinnamon-upgrade
       ```
 
@@ -62,6 +62,8 @@ To take an existing Ubuntu 20.04 system and change it into Wasta-Linux 20.04, fr
 
         - #### Install all default Wasta-Linux apps
 
+        - #### Enable `zswap` for better virtual RAM performance
+
     - ### Option 2:
 
       - Run the `wasta-initial-setup` Terminal **\*** command:
@@ -79,6 +81,8 @@ To take an existing Ubuntu 20.04 system and change it into Wasta-Linux 20.04, fr
 
         - #### Set `redmond7` as the default [**Cinnamon-Layout**](/wasta-apps/cinnamon-layout)
           - Of course this is only performed if Cinnamon is installed _(see above)_
+
+        - #### Remove installed snap packages to save space on future ISOs
 
     - ***NOTE:*** For either of the above 2 options if you want to run the full process _"non-interactively"_, so that the app removals and other bits are done without prompting you, please append the `auto` parameter like this: `sudo wasta-system-upgrade auto`
 
