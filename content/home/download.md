@@ -14,7 +14,7 @@ bookToc: false
 
 {{< tab "22.04.1" >}}
 
-### [**Wasta-Linux-22.04.1.1-64Bit**](http://www.wastalinux.org/downloads/isos/wl-22-04-1-1/WL-22.04.1.1-64bit.iso)
+### [**Wasta-Linux-22.04.1.1-64Bit**](https://www.wastalinux.org/downloads/isos/wl-22-04-1-1/WL-22.04.1.1-64bit.iso)
 * ***updated:*** 2023-08-17
 * ***md5:*** 6adbda10e4f69ecef118ffe9ae6cbaa7
 
@@ -30,7 +30,7 @@ bookToc: false
 
 {{< tab "22.04.3" >}}
 
-### [**Wasta-Linux-22.04.3-64Bit**](http://www.wastalinux.org/downloads/isos/wl-22-04-3/WL-22.04.3-64bit.iso)
+### [**Wasta-Linux-22.04.3-64Bit**](https://www.wastalinux.org/downloads/isos/wl-22-04-3/WL-22.04.3-64bit.iso)
 * ***updated:*** 2023-08-17
 * ***md5:*** dd5552d203db8512f448ceff1a556412
 
@@ -46,7 +46,7 @@ bookToc: false
 
 {{< tab "20.04" >}}
 
-### [**Wasta-Linux-20.04.5-64Bit**](http://www.wastalinux.org/downloads/isos/wl-20-04-5/WL-20.04.5-64bit.iso)
+### [**Wasta-Linux-20.04.5-64Bit**](https://www.wastalinux.org/downloads/isos/wl-20-04-5/WL-20.04.5-64bit.iso)
 * ***updated:*** 2022-03-24
 * ***md5:*** cab1cc4abd64cc872c8927ab166c17dd
 
@@ -85,7 +85,7 @@ bookToc: false
 
 {{< tab "32-bit (18.04)" >}}
 
-### [**Wasta-Linux-18.04.5-32Bit**](http://www.wastalinux.org/downloads/isos/wl-18-04-5-32bit/WL-18.04.5-32bit.iso)
+### [**Wasta-Linux-18.04.5-32Bit**](https://www.wastalinux.org/downloads/isos/wl-18-04-5-32bit/WL-18.04.5-32bit.iso)
 *32-bit* is only needed for older computers (2010 and earlier) that do not support 64-bit. If you aren't certain you need *32-bit*, **please try Wasta-Linux 20.04 first!**
 
 * ***updated:*** 2020-11-12
