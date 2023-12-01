@@ -8,13 +8,15 @@ bookToc: false
 
 # How to turn Ubuntu into Wasta-Linux
 
-To take an existing Ubuntu 22.04 system and change it into Wasta-Linux 22.04, from a Terminal **\*** perform the following steps:
+To take an existing stock Ubuntu 22.04 system and change it into Wasta-Linux 22.04, from a Terminal **\*** perform the following steps:
 
 - ***NOTE:*** Wasta-Linux only targets Ubuntu LTS _(**L**ong **T**erm **S**upport)_ releases, such as **22.04**, **20.04**, etc. Interim short-term Ubuntu releases such as **23.04**, **22.10**, etc. are _**not**_ supported.
 
+- ***NOTE:*** This migration guide assumes you have the *stock* Ubuntu LTS release installed, *not* Kubuntu, Xubuntu, or other Ubuntu Flavors, and *not* Linux Mint, elementaryOS, ZorinOS, or other Ubuntu derivatives.
+
 1. ## Get the Wasta-Linux core package installed:
 
-    The following Terminal **\*** commands *(perform them one at a time)* are needed to install the all-essential `wasta-core-focal` package, which is the foundation for Wasta-Linux:
+    The following Terminal **\*** commands *(perform them one at a time)* are needed to install the all-essential `wasta-core` package, which is the foundation for Wasta-Linux:
 
     ```
     sudo add-apt-repository ppa:wasta-linux/wasta
@@ -30,9 +32,9 @@ To take an existing Ubuntu 22.04 system and change it into Wasta-Linux 22.04, fr
 
     _(recommended but optional)_
 
-    - You do not have to install the Cinnamon desktop interface and can continue using Ubuntu's Unity desktop instead, but most Wasta-Linux tutorials and development focus revolve around the Cinnamon interface.Also note that even if you do install Cinnamon, the Ubuntu Unity desktop interface will not be removed, so you can continue using it or Cinnamon, whichever you prefer.
+    You do not have to install the Cinnamon desktop interface and can continue using Ubuntu's customized Gnome desktop instead, but most Wasta-Linux tutorials and development focus revolve around the Cinnamon interface.Also note that even if you do install Cinnamon, the Ubuntu Unity desktop interface will not be removed, so you can continue using it or Cinnamon, whichever you prefer.
 
-    - The following Terminal **\*** commands *(perform them one at a time)* will install Cinnamon and set it as the default desktop interface:
+    The following Terminal **\*** commands *(perform them one at a time)* will install Cinnamon and set it as the default desktop interface:
 
       ```
       sudo add-apt-repository ppa:wasta-linux/cinnamon-5-4
@@ -62,8 +64,6 @@ To take an existing Ubuntu 22.04 system and change it into Wasta-Linux 22.04, fr
 
         - #### Install all default Wasta-Linux apps
 
-        - #### Enable `zswap` for better virtual RAM performance
-
     - ### Option 2:
 
       - Run the `wasta-initial-setup` Terminal **\*** command:
@@ -88,7 +88,18 @@ To take an existing Ubuntu 22.04 system and change it into Wasta-Linux 22.04, fr
 
     - ***NOTE:*** You will definitely want to restart your system after this process has finished.
 
-4. ## Congratulations, you are now running Wasta-Linux!
+4. ## Enable zswap:
+
+    _(recommended but optional)_
+
+    Ubuntu / Wasta-Linux 20.04+ aggressively uses `swap` (virtual RAM). `zswap` uses *compressed RAM* to buffer swap before writing to disk. This is good for SSDs (less writing), and good for HDDs (no stalling). `zswap` should NOT be used with `zram` (uncompress/recompress shuffling).
+
+    - Run the `wasta-enable-zswap` Terminal **\*** command to enable `zswap`:
+        ```
+        sudo wasta-enable-zswap
+        ```
+
+5. ## Congratulations, you are now running Wasta-Linux!
 
 ---
 **\*** _To open the Terminal, in Wasta-Linux go to `Menu > Administration > Terminal`, or press the following keysat the same time: `Ctrl + Alt + T`_
