@@ -14,7 +14,7 @@ bookToc: false
 
 {{< tab "24.04.1" >}}
 
-### [**Wasta-Linux-24.04.1**](https://www.wastalinux.org/downloads/isos/wl-22-04-1/WL-24.04.1.iso)
+### [**Wasta-Linux-24.04.1**](https://www.wastalinux.org/downloads/isos/wl-24-04-1/WL-24.04.1.iso)
 * ***updated:*** 2024-09-17
 * ***md5:*** 5bf9ad7bbffb937eb288659536c44541
 
