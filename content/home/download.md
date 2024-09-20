@@ -56,5 +56,3 @@ bookToc: false
 * If you are wanting to run *Wasta-Linux* in *VirtualBox*, [**first read these instructions.**](/tutorials/virtualbox-install)
 
 * To perform a full installation of *Wasta-Linux* to a portable, encrypted USB drive without touching the main OS on the computer, [**you can follow this guide.**](/tutorials/usb-install)
-
-* To use a pre-configured *Wasta-Linux* USB Image that can be run from a USB Drive without going through the full installation procedure, please click on the `USB Image` tab above for instructions.
