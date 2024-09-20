@@ -23,7 +23,7 @@ bookToc: false
 * **Interface:** *Cinnamon* is the default interface, with *Gnome (Ubuntu's default interface)* alternately available from the login screen
 * **Long-Term Support:** Security updates provided by *Ubuntu* through **April 2029**
 * **Linux Kernel:** 6.8 - This kernel version will not change so you will have more stability to your system if all of your hardware works well with it. If you have hardware requiring a newer Linux Kernel, post to the Wasta-Linux User Forum (links below) to ask for assistance.
-* **SIL Software Availability:** Many SIL apps are available as traditional `.deb` packages for use in Wasta-Linux including the *App Builders*, *Adapt It*, and others. Due to a design decision beyond our control, you will need to use *Synaptic Package Manager* (pre-installed) to find these SIL software applications.
+* **SIL Software Availability:** Many SIL apps are available as traditional `.deb` packages for use in Wasta-Linux including the *App Builders*, *Adapt It*, and others. Due to a security design decision beyond our control, you will need to use *Synaptic Package Manager* (pre-installed) to find these SIL software applications.
   * However, traditional `.deb` versions of *.NET based SIL software* are not available for 24.04. Instead, `Flatpak` is used for distributing *Fieldworks* and *Bloom*, and `Snap` is used to distribute *Paratext (9.0)* and *Paratext Lite.* The *Software* application can be used to search for and install these applications.
 {{< /tab >}}
 
