@@ -8,9 +8,9 @@ bookToc: false
 
 # How to turn Ubuntu into Wasta-Linux
 
-To take an existing stock Ubuntu 22.04 system and change it into Wasta-Linux 22.04, from a Terminal **\*** perform the following steps:
+To take an existing stock Ubuntu 24.04 system and change it into Wasta-Linux 24.04, from a Terminal **\*** perform the following steps:
 
-- ***NOTE:*** Wasta-Linux only targets Ubuntu LTS _(**L**ong **T**erm **S**upport)_ releases, such as **22.04**, **20.04**, etc. Interim short-term Ubuntu releases such as **23.04**, **22.10**, etc. are _**not**_ supported.
+- ***NOTE:*** Wasta-Linux only targets Ubuntu LTS _(**L**ong **T**erm **S**upport)_ releases, such as **24.04**, **22.04**, etc. Interim short-term Ubuntu releases such as **24.10**, **23.04**, etc. are _**not**_ supported.
 
 - ***NOTE:*** This migration guide assumes you have the *stock* Ubuntu LTS release installed, *not* Kubuntu, Xubuntu, or other Ubuntu Flavors, and *not* Linux Mint, elementaryOS, ZorinOS, or other Ubuntu derivatives.
 
@@ -37,7 +37,6 @@ To take an existing stock Ubuntu 22.04 system and change it into Wasta-Linux 22.
     The following Terminal **\*** commands *(perform them one at a time)* will install Cinnamon and set it as the default desktop interface:
 
       ```
-      sudo add-apt-repository ppa:wasta-linux/cinnamon-5-4
       sudo apt-get update
       sudo apt-get install wasta-cinnamon
       sudo wasta-cinnamon-upgrade
