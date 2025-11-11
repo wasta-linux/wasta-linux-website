@@ -1,6 +1,6 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/example
 
-baseURL = 'http://www.wastalinux.org'
+baseURL = 'https://www.wastalinux.org'
 title = 'wasta [Linux]'
 theme = 'book-wasta'
 disableKinds = ['taxonomy', 'taxonomyTerm']
@@ -47,4 +47,4 @@ pygmentsCodeFences = true
 
   # (Optional, default true) Enables search function with lunr.js, 
   # Index is built on fly, therefore it might slowdown your website.
-  BookSearch = true
+  BookSearch = false
